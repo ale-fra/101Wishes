@@ -1,0 +1,60 @@
+<div id="sign_in1">
+    <div class="container">
+        <div class="row">
+            <div class="span12 header">
+                <div ng-show="errorHex">
+                    <h4>{{ msgText }}</h4>
+                    <p>{{ msgDescription }}</p>
+                </div>
+                <div ng-show="successToken">
+
+                    <h4>{{ msgText }}</h4>
+                    <p>{{ msgDescription }}</p>
+
+
+
+
+                    <div id="sign_in2">
+                        <div class="container">
+                            <div class="row login">
+
+
+                                <div class="span6 signin_box" style="width: 50%;margin-left: 25%;">
+                                    <div class="box" style="paddin:15px 0 0;">
+                                        <div class="box_cont">
+
+                                            <div class="form">
+
+                                                <div  style="height: 50px;margin-top:11px;" > <label style="color:black">Complexity password</label>
+                                                    <div class="progress">
+                                                        <div class="bar bar-danger" style="width:1%" ng-class="type" ng-style="{width: percentual}"></div>
+                                                    </div>
+                                                </div>
+
+                                                    <input type="text" placeholder="Password" ng-model="password" ng-change="validatePassword(password)">
+                                                    <input type="text" placeholder="Confirm Password" ng-model="confirmPassword">
+
+
+                                    <button style="width:50%;" type="button" class="btn btn-large btn-primary" ng-click="changePassword(password)">Confim</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

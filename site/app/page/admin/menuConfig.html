@@ -1,0 +1,82 @@
+<div class="row-fluid" ng-controller="menuConfigCtrl">
+	<div class="span12">
+		<div class="box corner-all">
+			<div class="span12">
+				<div class="box corner-all">
+
+
+					<div class="box-header grd-white color-silver-dark corner-top">
+						<div class="header-control">
+						<button ng-click="salva()"> Salva</button>
+                             <a class="custom-action" ng-click="add()"><i class="icon-plus"></i></a>
+                             
+                             
+                         </div>
+						<span>Configura il menu</span>
+					</div>
+					<!--/box-header-->
+					<div class="box-body">
+						<div class="row-fluid boxMenuConfig" >
+							<div class="span3" style="margin-bottom: -21px">	
+								<table class="table table-hover tabMenuConfig">
+									<tbody ui-sortable="sortItems">
+					           			<tr ng-dblclick="startEditing(item);" ng-click="setActive(item)" ng:class="{active: item.active}" ng-repeat="item in menuConfig | orderBy:'order':false" id="{{item._id}}">
+							                <td class="handle"><img src="http://kentbs.kecioren.bel.tr/Styles/images/draggable.png"></img></td>
+							                <td>
+							                	<span ng-hide="item.editing">{{item.Title}}</span>
+										          <form ng-submit="doneEditing(item)" ng-show="item.editing">
+										              <input ng-model="item.Title" ng-blur="doneEditing(item)" ng-focus="item == editedItem">
+										          </form>
+							                
+							                
+							                
+							                
+							                
+							                
+							                </td>
+							                
+							           	</tr>
+			        				</tbody>
+							    </table> 
+							</div>
+							<div class="span9">
+								<div class="row-fluid" >
+									<div class="span4">
+										<div class="control-group">
+                                           <label class="control-label">Title :</label>
+                                           <div class="controls">
+                                               <span ng-hide="item.editing">{{item.Title}}</span>
+										          <form ng-submit="doneEditing(item)" ng-show="item.editing">
+										              <input ng-model="item.Title" ng-blur="doneEditing(item)" ng-focus="item == editedItem">
+										          </form>
+                                           </div>
+                                       </div>
+									</div>
+									<div class="span4">
+									</div>
+									<div class="span4">
+									</div>
+								</div>
+							
+							<div>
+							
+							 
+							</div>
+							</div>
+							
+									
+						</div>			
+	
+
+
+					</div>
+				</div>
+				<!--/box-body-->
+			</div>
+			<!--/span-->
+		</div>
+	</div>
+</div>
+
+
+

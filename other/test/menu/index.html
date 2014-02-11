@@ -1,0 +1,77 @@
+<!-- 
+
+AngularJS - Multiple inline ng-view Example with Services
+
+Features :
+
+* 2 Services manage the domain model :
+- Page : store the page title and broadcasts an changedPageTitle event which the MainCtrl controller listens for and updates the DOM
+- Model : a simple in-memory indexed record store with getter methods (and an add and delete method that is not used yet
+
+* multiple ng-views with inline templates (partials). These use the `<script type=text/ng-template id=home.html>` syntax which mean we dont have to have partials in seperate files (good for single file examples like JSFiddles
+
+PROBLEMS
+
+1) I dont like that my Page service has to broadcast an event that the pageTitle has changed. Is there a better way to do this (is this a use case for a $watch ?
+
+-->
+<html>
+<head>
+
+         <script  src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+<script type="text/javascript" src="myfile.js"></script>
+
+</head>
+<body>
+
+
+<div ng-controller="MainCtrl" ng-app=app>
+
+<h1>{{page.title()}}</h1>
+
+<p> <a href="#/home">Home</a> |
+    <a href="#/list">List</a> |
+    <a href="#/settings">Settings</a>
+</p>
+
+<hr>
+    <ng-view>Loading...</ng-view>
+<hr>
+Footer
+
+<!-- Inline Templates (Partials) -->
+    
+<script type=text/ng-template id=home.html>
+    <!-- Home -->
+    <ul>
+        <li><a href="#/list">Show Items</a></li>
+        <li><a href="#/settings">Settings</a></li>
+    </ul>
+</script>
+
+<script type=text/ng-template id=list.html>
+    <!-- List -->
+    <p>Choose an Item</p>
+    <ul>
+        <li ng-repeat="item in items"><a href="#/detail/{{item.id}}">{{item.title}}</a></li>
+    </ul>
+</script>
+
+<script type=text/ng-template id=detail.html>
+    <!-- Detail -->
+    <h2>{{item.title}}</h2>
+    <p>{{item.detail}}</p>
+    <hr>
+    <p>{{item.id}}</p>
+</script>
+
+<script type=text/ng-template id=settings.html>
+    <!-- Settings -->
+    <p>Settings go here ...</p>
+</script>
+    
+
+</div>
+
+</body>
+</html>

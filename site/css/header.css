@@ -1,0 +1,36 @@
+@CHARSET "ISO-8859-1";
+
+.boxMenuConfig{
+	border:1px solid #ddd;
+	
+}
+.tabMenuConfig tbody tr{
+	width:120px;
+}
+.tabMenuConfig td{
+		border:1px solid #ddd;
+}
+.tabMenuConfig td input{
+	width:100%;
+}
+.tabMenuConfig td form{
+	margin:0;
+}
+
+.tabMenuConfig .active{
+/* 	background-color:#E5F0E5; */
+}
+.tabMenuConfig .active  td:first-child + td{
+	border-right:0px;
+}
+
+.tabMenuConfig  tr:first-child td{
+	border-top:0px;
+}
+.tabMenuConfig  td:first-child + td{
+	border-left:0px;
+}
+.tabMenuConfig td:first-child{
+		border-right:0px;
+		border-left:0px;
+}

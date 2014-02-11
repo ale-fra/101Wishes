@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html ng-app=app>
+    <head>
+    <meta charset="utf-8" />
+    <title>MY app</title>
+    
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css"/>
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css"/>
+    
+    <!--  default theme -->
+    <link href="css/stilearn.css" rel="stylesheet" type="text/css"/>
+    <link href="css/stilearn-helper.css" rel="stylesheet" type="text/css"/>
+   	<link href="css/stilearn-responsive.css" rel="stylesheet" type="text/css"/>
+   
+    <!-- usage -->
+    
+    <link href="css/stilearn-icon.css" rel="stylesheet" type="text/css"/>
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
+    <link href="css/animate.css" rel="stylesheet" type="text/css"/>
+    <link href="css/uniform.default.css" rel="stylesheet" type="text/css"/>
+    
+    <!-- header css -->
+        <link href="css/header.css" rel="stylesheet" type="text/css"/>
+    
+    <!-- other -->
+    <!-- <link id="style-calendar" href="http://stilearning.com/items/preview/stilearn-admin-template/css/fullcalendar.css" rel="stylesheet" />
+    <link href="http://stilearning.com/items/preview/stilearn-admin-template/css/select2.css" rel="stylesheet" />
+    <link href="http://stilearning.com/items/preview/stilearn-admin-template/css/bootstrap-wysihtml5.css" rel="stylesheet" /> -->
+  </head>
+
+    <body >
+    <header class="header">
+            <!--nav bar helper-->
+            <div class="navbar-helper">
+                <div class="row-fluid">
+                    <!--panel site-name-->
+                    <div class="span2">
+                        <div class="panel-sitename">
+                            <h2><a href="#"><span class="color-teal">My</span>App</a></h2>
+                        </div>
+                    </div>
+                    <!--/panel name-->
+
+                    <div class="span6">
+                        <!--panel search-->
+                        <div class="panel-search">
+                            <form class="form-search">
+                                <div class="input-icon-append">
+                                    <button type="submit" rel="tooltip-bottom" title="search" class="icon"><i class="icofont-search"></i></button>
+                                    <input class="input-large search-query grd-white" maxlength="23" placeholder="Search here..." type="text">
+                                </div>
+                            </form>
+                        </div><!--/panel search-->
+                    </div>
+                    <div class="span3" ng-controller="LoginCtrl" style="margin-left:115px">
+                    <div class="span12">
+	                    <form  class="form-inline">
+							<div style="float: left; width: 9px; height: 44px;" id="usr-left"><img width="9" height="44" src="./img/user-bg-left.png">
+							</div>
+							<div style="float: left; width: 94%; height: 44px; background-image: url('./img/user-bg-middle.png'); background-repeat: repeat-x;" id="usr-middle">
+							  	<div ng-hide="showLoginForm" class="form-inline" style=" margin-top: 6px; ">
+							  					<div style="width:100%;">
+							  					<div style="width: 143px;margin: 0 auto;">
+												<label>{{username}} </label>
+												<button class="btn btn-small" ng-click="tryLogOut()" type="button">Log Out</button>
+												</div></div>
+												
+							  	
+							  	</div>
+								<div style=" margin-top: 6px; " ng-show="showLoginForm" class="form-inline">
+									<input type="text" class="input-small"  ng-model="username" placeholder="Username" > 
+									<input type="password" class="input-small" ng-model="password" placeholder="Password" >
+									<button  ng-click="tryLogin(username,password)" class="btn">Sign in</button>
+							  	</div>
+							  	</div>
+							<div style="float: left; height: 44px; width: 9px;" id="usr-right"><img width="9" height="44" src="./img/user-bg-right.png">
+							</div>
+						 </form>
+					</div>
+                    </div>
+
+                </div><!--/row-fluid-->
+            </div><!--/nav bar helper-->
+        </header>
+    <section class="section">
+   <div class="row-fluid"ng:controller="MenuCtrl" >
+    
+	<div class="span1" >
+                   <!-- side bar -->
+                   <div class="side-left"  >
+                        <ul class="sidebar" >  <!-- filter:'!admin' -->
+                        	<li  ng:repeat="item in menu  | orderBy:'order':false" ng:class="{active: item.active}" >
+                                <a title="{{item.Title}}"  ng-click="setActive(item.Url)">
+                                    <div class="helper-font-24">
+                                        <i class="{{item.Class}}"></i>
+                                    </div>
+                                    <span class="sidebar-text">{{item.Title}}</span>
+                                </a>
+                            </li> 
+                        </ul>
+                    </div>
+                    <!-- /side bar -->
+	</div><!-- span side-left -->
+      
+    <div class="span9" >
+                    <!-- content -->
+                    <div class="content" >
+                        <!-- content-header -->
+                        <div class="content-header" style="height: 40px">
+                       		
+                       		<!-- class="content-header-action pull-right" -->
+                       		
+                            <div id="headerLeftBox" style="float:left;"><h2><i class="icofont-home"></i> Dashboard <small>welcome to stilearn</small></h2></div>
+                       		
+                       		<div id="headerMessageBox"class="span" ng-controller="MessageBoxCtrl" style="width: 255px;">
+   								<div class="alert" ng-class="type" ng-show="showMessageBox">
+                                    <button type="button" class="close" ng-click="showMessageBox=false">×</button>
+                                    <width><strong>{{msgStrong}}</strong> {{msg}}</width>
+                                </div>
+                    		</div>
+                            <ul id="headerRightBox" class="content-header-action pull-right">
+                                <li>
+                                    <a href="#">
+                                      <span data-chart="peity-bar" data-height="32" data-colours="[&quot;#00A600&quot;, &quot;#00A600&quot;]" style="display: none;">5,3,9,6,5,9,7,3,5,2</span>
+                                        <div class="action-text color-green">8765 <span class="helper-font-small color-silver-dark">Visits</span></div>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">
+                                        <canvas height="32" width="32"></canvas><span data-chart="peity-bar" data-height="32" data-colours="[&quot;#00A0B1&quot;, &quot;#00A0B1&quot;]" style="display: none;">9,7,9,6,3,5,3,5,5,2</span>
+                                        <div class="action-text color-teal">1437 <span class="helper-font-small color-silver-dark">Users</span></div>
+                                    </a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">
+                                        <canvas height="32" width="32"></canvas><span data-chart="peity-bar" data-height="32" data-colours="[&quot;#BF1E4B&quot;, &quot;#BF1E4B&quot;]" style="display: none;">6,5,9,7,3,5,2,5,3,9</span>
+                                        <div class="action-text color-red">4367 <span class="helper-font-small color-silver-dark">Orders</span></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div><!-- /content-header -->
+                        
+                        <!-- content-breadcrumb -->
+                        <div class="content-breadcrumb" >
+                        
+                           <!--  breadcrumb-nav -->
+                             <ul class="breadcrumb-nav pull-right" ng-repeat="item in menu | filter:{ active: true }">
+								<li class=divider></li>     
+								<li divider-append class="btn-group dropdown"ng:repeat="item in item.subMenu"  >
+                                    <a  class="dropdown-toggle" >
+                                        <i class="icofont-tasks"></i> {{item.Name}}
+                                        <i class="icofont-caret-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+										 <li   ng:repeat="item in item.actions"  >
+                                       	 	<a ng-click="printf($parent.$parent.item.Url,$parent.item.ToInclude)"  href="#{{$parent.$parent.item.Url+item.scope}}">{{item.title}}
+                                  	      	</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class=divider></li>
+                                
+                            </ul><!-- //breadcrumb-nav -->
+                             <!-- 
+                             <div class="breadcrumb-nav pull-right">
+                             
+								<li class="dropdown" >
+								  <a class="dropdown-toggle">
+								    Click!
+								  </a>
+								  <ul class="dropdown-menu">
+								    <li >
+								      <a>Click!</a>
+								    </li>
+								  </ul>
+								</li>
+
+
+
+                             </div> -->
+                            <!-- breadcrumb -->
+                            <ul class="breadcrumb">
+                                <li><a href="index.html"><i class="icofont-home"></i> Dashboard</a> <span class="divider">›</span></li>
+                                <li class="active">Data elements</li>
+                                
+                                
+                            </ul><!-- /breadcrumb -->
+                        </div><!-- /content-breadcrumb -->
+                 
+                        <!-- content-body -->
+                        
+                        <div class="content-body" ng-include="'app/page/'+path() +'.html'">
+          
+				          </div>
+				          
+				        
+          
+               		     </div><!-- /content -->
+                </div>
+	 <div class="span2">
+                    <!-- side-right -->
+                    <aside class="side-right">
+                        <!-- sidebar-right -->
+                        <div class="sidebar-right">
+                            <!--sidebar-right-header-->
+                            
+                            
+                            
+                        </div><!-- /sidebar-right -->
+                    </aside><!-- /side-right -->
+                </div><!-- /span side-right -->
+</section>
+</div>
+        <!-- javascript
+        ================================================== -->
+		<script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+ 		<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script type="text/javascript" src="js/angular.min.js"></script>
+ 		<script type="text/javascript" src="js/angular-ui.min.js"></script> 
+ 		<script type="text/javascript" src="js/ui-bootstrap-tpls-0.4.0.min.js"></script>
+ 		
+ 		<script type="text/javascript" src="js/sortable.js"></script>
+		<script type="text/javascript" src="js/tabs.js"></script>
+
+  		<script  type="text/javascript"src="app/controller/app.js"></script>
+ 		<script type="text/javascript" src="app/page/admin/menuConfig.js"></script>
+  		<script  type="text/javascript"src="app/controller/loginController.js"></script>
+       	<script type="text/javascript" src="../public/angular/alertBox/messageBoxController.js"></script>
+       	
+ 	
+    
+<!--        	<script type="text/javascript" src="js/angular-strap.min.js"></script> -->
+        <!-- required stilearn template js, for full feature -->
+        
+
+ 
+    </body>
+</html>

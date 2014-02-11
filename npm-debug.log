@@ -1,0 +1,1966 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'update' ]
+2 info using npm@1.3.8
+3 info using node@v0.10.18
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'express', '~3.1.0' ]
+6 verbose cache add name="express" spec="~3.1.0" args=["express","~3.1.0"]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '~3.1.0',
+7 verbose parsed url   path: '~3.1.0',
+7 verbose parsed url   href: '~3.1.0' }
+8 verbose addNamed [ 'express', '~3.1.0' ]
+9 verbose addNamed [ null, '>=3.1.0-0 <3.2.0-0' ]
+10 verbose cache add [ 'path', '~0.4.9' ]
+11 verbose cache add name="path" spec="~0.4.9" args=["path","~0.4.9"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '~0.4.9',
+12 verbose parsed url   path: '~0.4.9',
+12 verbose parsed url   href: '~0.4.9' }
+13 verbose addNamed [ 'path', '~0.4.9' ]
+14 verbose addNamed [ null, '>=0.4.9-0 <0.5.0-0' ]
+15 verbose cache add [ 'mongoose', '~3.6.x' ]
+16 verbose cache add name="mongoose" spec="~3.6.x" args=["mongoose","~3.6.x"]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '~3.6.x',
+17 verbose parsed url   path: '~3.6.x',
+17 verbose parsed url   href: '~3.6.x' }
+18 verbose addNamed [ 'mongoose', '~3.6.x' ]
+19 verbose addNamed [ null, '>=3.6.0-0 <3.7.0-0' ]
+20 verbose cache add [ 'email-templates', '0.1.0' ]
+21 verbose cache add name="email-templates" spec="0.1.0" args=["email-templates","0.1.0"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '0.1.0',
+22 verbose parsed url   path: '0.1.0',
+22 verbose parsed url   href: '0.1.0' }
+23 verbose addNamed [ 'email-templates', '0.1.0' ]
+24 verbose addNamed [ '0.1.0', '0.1.0' ]
+25 verbose cache add [ 'nodemailer', '0.5.2' ]
+26 verbose cache add name="nodemailer" spec="0.5.2" args=["nodemailer","0.5.2"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: '0.5.2',
+27 verbose parsed url   path: '0.5.2',
+27 verbose parsed url   href: '0.5.2' }
+28 verbose addNamed [ 'nodemailer', '0.5.2' ]
+29 verbose addNamed [ '0.5.2', '0.5.2' ]
+30 verbose cache add [ 'passport-local', '0.1.6' ]
+31 verbose cache add name="passport-local" spec="0.1.6" args=["passport-local","0.1.6"]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: '0.1.6',
+32 verbose parsed url   path: '0.1.6',
+32 verbose parsed url   href: '0.1.6' }
+33 verbose addNamed [ 'passport-local', '0.1.6' ]
+34 verbose addNamed [ '0.1.6', '0.1.6' ]
+35 verbose cache add [ 'passport', '0.1.17' ]
+36 verbose cache add name="passport" spec="0.1.17" args=["passport","0.1.17"]
+37 verbose parsed url { protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: '0.1.17',
+37 verbose parsed url   path: '0.1.17',
+37 verbose parsed url   href: '0.1.17' }
+38 verbose addNamed [ 'passport', '0.1.17' ]
+39 verbose addNamed [ '0.1.17', '0.1.17' ]
+40 silly lockFile d9823270-express-3-1-0 express@~3.1.0
+41 verbose lock express@~3.1.0 C:\Users\user\AppData\Roaming\npm-cache\d9823270-express-3-1-0.lock
+42 silly lockFile dcf59ca8-path-0-4-9 path@~0.4.9
+43 verbose lock path@~0.4.9 C:\Users\user\AppData\Roaming\npm-cache\dcf59ca8-path-0-4-9.lock
+44 silly lockFile 61496211-mongoose-3-6-x mongoose@~3.6.x
+45 verbose lock mongoose@~3.6.x C:\Users\user\AppData\Roaming\npm-cache\61496211-mongoose-3-6-x.lock
+46 silly lockFile 0b5dfd46-email-templates-0-1-0 email-templates@0.1.0
+47 verbose lock email-templates@0.1.0 C:\Users\user\AppData\Roaming\npm-cache\0b5dfd46-email-templates-0-1-0.lock
+48 silly lockFile efb5b675-nodemailer-0-5-2 nodemailer@0.5.2
+49 verbose lock nodemailer@0.5.2 C:\Users\user\AppData\Roaming\npm-cache\efb5b675-nodemailer-0-5-2.lock
+50 silly lockFile 91e070c6-passport-local-0-1-6 passport-local@0.1.6
+51 verbose lock passport-local@0.1.6 C:\Users\user\AppData\Roaming\npm-cache\91e070c6-passport-local-0-1-6.lock
+52 silly lockFile 78b0a3f0-passport-0-1-17 passport@0.1.17
+53 verbose lock passport@0.1.17 C:\Users\user\AppData\Roaming\npm-cache\78b0a3f0-passport-0-1-17.lock
+54 silly addNameRange { name: 'express', range: '>=3.1.0-0 <3.2.0-0', hasData: false }
+55 silly addNameRange { name: 'path', range: '>=0.4.9-0 <0.5.0-0', hasData: false }
+56 silly addNameRange { name: 'mongoose', range: '>=3.6.0-0 <3.7.0-0', hasData: false }
+57 verbose url raw email-templates/0.1.0
+58 verbose url resolving [ 'https://registry.npmjs.org/', './email-templates/0.1.0' ]
+59 verbose url resolved https://registry.npmjs.org/email-templates/0.1.0
+60 info trying registry request attempt 1 at 12:28:37
+61 http GET https://registry.npmjs.org/email-templates/0.1.0
+62 verbose url raw passport-local/0.1.6
+63 verbose url resolving [ 'https://registry.npmjs.org/', './passport-local/0.1.6' ]
+64 verbose url resolved https://registry.npmjs.org/passport-local/0.1.6
+65 info trying registry request attempt 1 at 12:28:37
+66 http GET https://registry.npmjs.org/passport-local/0.1.6
+67 verbose url raw passport/0.1.17
+68 verbose url resolving [ 'https://registry.npmjs.org/', './passport/0.1.17' ]
+69 verbose url resolved https://registry.npmjs.org/passport/0.1.17
+70 info trying registry request attempt 1 at 12:28:37
+71 http GET https://registry.npmjs.org/passport/0.1.17
+72 verbose url raw express
+73 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+74 verbose url resolved https://registry.npmjs.org/express
+75 info trying registry request attempt 1 at 12:28:37
+76 verbose etag "9CA5VR2I1W8HZ8TMR0IN0GVY0"
+77 http GET https://registry.npmjs.org/express
+78 verbose url raw mongoose
+79 verbose url resolving [ 'https://registry.npmjs.org/', './mongoose' ]
+80 verbose url resolved https://registry.npmjs.org/mongoose
+81 info trying registry request attempt 1 at 12:28:37
+82 verbose etag "DKC3BEQ9IUWYJJR5B34BJK0X3"
+83 http GET https://registry.npmjs.org/mongoose
+84 verbose url raw path
+85 verbose url resolving [ 'https://registry.npmjs.org/', './path' ]
+86 verbose url resolved https://registry.npmjs.org/path
+87 info trying registry request attempt 1 at 12:28:37
+88 verbose etag "97DDTHXY7TO96TFXYRWTZ002X"
+89 http GET https://registry.npmjs.org/path
+90 verbose url raw nodemailer/0.5.2
+91 verbose url resolving [ 'https://registry.npmjs.org/', './nodemailer/0.5.2' ]
+92 verbose url resolved https://registry.npmjs.org/nodemailer/0.5.2
+93 info trying registry request attempt 1 at 12:28:37
+94 verbose etag "8CLBWEMLEBMIEQCHOZ4BAL13E"
+95 http GET https://registry.npmjs.org/nodemailer/0.5.2
+96 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+97 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+98 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+99 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+100 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+101 info trying registry request attempt 2 at 12:29:08
+102 http GET https://registry.npmjs.org/passport/0.1.17
+103 info trying registry request attempt 2 at 12:29:08
+104 http GET https://registry.npmjs.org/email-templates/0.1.0
+105 info trying registry request attempt 2 at 12:29:08
+106 http GET https://registry.npmjs.org/passport-local/0.1.6
+107 info trying registry request attempt 2 at 12:29:08
+108 verbose etag "9CA5VR2I1W8HZ8TMR0IN0GVY0"
+109 http GET https://registry.npmjs.org/express
+110 info trying registry request attempt 2 at 12:29:08
+111 verbose etag "DKC3BEQ9IUWYJJR5B34BJK0X3"
+112 http GET https://registry.npmjs.org/mongoose
+113 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+114 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+115 info trying registry request attempt 2 at 12:29:29
+116 verbose etag "8CLBWEMLEBMIEQCHOZ4BAL13E"
+117 http GET https://registry.npmjs.org/nodemailer/0.5.2
+118 info trying registry request attempt 2 at 12:29:29
+119 verbose etag "97DDTHXY7TO96TFXYRWTZ002X"
+120 http GET https://registry.npmjs.org/path
+121 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+122 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+123 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+124 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+125 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+126 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+127 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+128 info trying registry request attempt 3 at 12:30:30
+129 http GET https://registry.npmjs.org/passport-local/0.1.6
+130 info trying registry request attempt 3 at 12:30:30
+131 http GET https://registry.npmjs.org/passport/0.1.17
+132 info trying registry request attempt 3 at 12:30:30
+133 http GET https://registry.npmjs.org/email-templates/0.1.0
+134 info trying registry request attempt 3 at 12:30:40
+135 verbose etag "9CA5VR2I1W8HZ8TMR0IN0GVY0"
+136 http GET https://registry.npmjs.org/express
+137 info trying registry request attempt 3 at 12:30:40
+138 verbose etag "DKC3BEQ9IUWYJJR5B34BJK0X3"
+139 http GET https://registry.npmjs.org/mongoose
+140 info trying registry request attempt 3 at 12:30:51
+141 verbose etag "8CLBWEMLEBMIEQCHOZ4BAL13E"
+142 http GET https://registry.npmjs.org/nodemailer/0.5.2
+143 info trying registry request attempt 3 at 12:30:51
+144 verbose etag "97DDTHXY7TO96TFXYRWTZ002X"
+145 http GET https://registry.npmjs.org/path
+146 silly lockFile 91e070c6-passport-local-0-1-6 passport-local@0.1.6
+147 silly lockFile 91e070c6-passport-local-0-1-6 passport-local@0.1.6
+148 silly lockFile 78b0a3f0-passport-0-1-17 passport@0.1.17
+149 silly lockFile 78b0a3f0-passport-0-1-17 passport@0.1.17
+150 silly lockFile 0b5dfd46-email-templates-0-1-0 email-templates@0.1.0
+151 silly lockFile 0b5dfd46-email-templates-0-1-0 email-templates@0.1.0
+152 verbose cache add [ 'pkginfo', '0.2.x' ]
+153 verbose cache add name="pkginfo" spec="0.2.x" args=["pkginfo","0.2.x"]
+154 verbose parsed url { protocol: null,
+154 verbose parsed url   slashes: null,
+154 verbose parsed url   auth: null,
+154 verbose parsed url   host: null,
+154 verbose parsed url   port: null,
+154 verbose parsed url   hostname: null,
+154 verbose parsed url   hash: null,
+154 verbose parsed url   search: null,
+154 verbose parsed url   query: null,
+154 verbose parsed url   pathname: '0.2.x',
+154 verbose parsed url   path: '0.2.x',
+154 verbose parsed url   href: '0.2.x' }
+155 verbose addNamed [ 'pkginfo', '0.2.x' ]
+156 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+157 silly lockFile f898f07d-pkginfo-0-2-x pkginfo@0.2.x
+158 verbose lock pkginfo@0.2.x C:\Users\user\AppData\Roaming\npm-cache\f898f07d-pkginfo-0-2-x.lock
+159 verbose cache add [ 'pause', '0.0.1' ]
+160 verbose cache add name="pause" spec="0.0.1" args=["pause","0.0.1"]
+161 verbose parsed url { protocol: null,
+161 verbose parsed url   slashes: null,
+161 verbose parsed url   auth: null,
+161 verbose parsed url   host: null,
+161 verbose parsed url   port: null,
+161 verbose parsed url   hostname: null,
+161 verbose parsed url   hash: null,
+161 verbose parsed url   search: null,
+161 verbose parsed url   query: null,
+161 verbose parsed url   pathname: '0.0.1',
+161 verbose parsed url   path: '0.0.1',
+161 verbose parsed url   href: '0.0.1' }
+162 verbose addNamed [ 'pause', '0.0.1' ]
+163 verbose addNamed [ '0.0.1', '0.0.1' ]
+164 silly lockFile c62fc432-pause-0-0-1 pause@0.0.1
+165 verbose lock pause@0.0.1 C:\Users\user\AppData\Roaming\npm-cache\c62fc432-pause-0-0-1.lock
+166 verbose cache add [ 'pkginfo', '0.2.x' ]
+167 verbose cache add name="pkginfo" spec="0.2.x" args=["pkginfo","0.2.x"]
+168 verbose parsed url { protocol: null,
+168 verbose parsed url   slashes: null,
+168 verbose parsed url   auth: null,
+168 verbose parsed url   host: null,
+168 verbose parsed url   port: null,
+168 verbose parsed url   hostname: null,
+168 verbose parsed url   hash: null,
+168 verbose parsed url   search: null,
+168 verbose parsed url   query: null,
+168 verbose parsed url   pathname: '0.2.x',
+168 verbose parsed url   path: '0.2.x',
+168 verbose parsed url   href: '0.2.x' }
+169 verbose addNamed [ 'pkginfo', '0.2.x' ]
+170 verbose cache add [ 'passport', '~0.1.1' ]
+171 verbose cache add name="passport" spec="~0.1.1" args=["passport","~0.1.1"]
+172 verbose parsed url { protocol: null,
+172 verbose parsed url   slashes: null,
+172 verbose parsed url   auth: null,
+172 verbose parsed url   host: null,
+172 verbose parsed url   port: null,
+172 verbose parsed url   hostname: null,
+172 verbose parsed url   hash: null,
+172 verbose parsed url   search: null,
+172 verbose parsed url   query: null,
+172 verbose parsed url   pathname: '~0.1.1',
+172 verbose parsed url   path: '~0.1.1',
+172 verbose parsed url   href: '~0.1.1' }
+173 verbose addNamed [ 'passport', '~0.1.1' ]
+174 verbose addNamed [ null, '>=0.1.1-0 <0.2.0-0' ]
+175 silly lockFile 58df7143-passport-0-1-1 passport@~0.1.1
+176 verbose lock passport@~0.1.1 C:\Users\user\AppData\Roaming\npm-cache\58df7143-passport-0-1-1.lock
+177 silly addNameRange { name: 'passport', range: '>=0.1.1-0 <0.2.0-0', hasData: false }
+178 verbose url raw passport
+179 verbose url resolving [ 'https://registry.npmjs.org/', './passport' ]
+180 verbose url resolved https://registry.npmjs.org/passport
+181 info trying registry request attempt 1 at 12:30:55
+182 verbose etag "647O87R0SVQ2Y4LYCBRSGUUMA"
+183 http GET https://registry.npmjs.org/passport
+184 verbose cache add [ 'ejs', '0.8.3' ]
+185 verbose cache add name="ejs" spec="0.8.3" args=["ejs","0.8.3"]
+186 verbose parsed url { protocol: null,
+186 verbose parsed url   slashes: null,
+186 verbose parsed url   auth: null,
+186 verbose parsed url   host: null,
+186 verbose parsed url   port: null,
+186 verbose parsed url   hostname: null,
+186 verbose parsed url   hash: null,
+186 verbose parsed url   search: null,
+186 verbose parsed url   query: null,
+186 verbose parsed url   pathname: '0.8.3',
+186 verbose parsed url   path: '0.8.3',
+186 verbose parsed url   href: '0.8.3' }
+187 verbose addNamed [ 'ejs', '0.8.3' ]
+188 verbose addNamed [ '0.8.3', '0.8.3' ]
+189 silly lockFile 63abddb0-ejs-0-8-3 ejs@0.8.3
+190 verbose lock ejs@0.8.3 C:\Users\user\AppData\Roaming\npm-cache\63abddb0-ejs-0-8-3.lock
+191 verbose cache add [ 'juice', '~0.3.2' ]
+192 verbose cache add name="juice" spec="~0.3.2" args=["juice","~0.3.2"]
+193 verbose parsed url { protocol: null,
+193 verbose parsed url   slashes: null,
+193 verbose parsed url   auth: null,
+193 verbose parsed url   host: null,
+193 verbose parsed url   port: null,
+193 verbose parsed url   hostname: null,
+193 verbose parsed url   hash: null,
+193 verbose parsed url   search: null,
+193 verbose parsed url   query: null,
+193 verbose parsed url   pathname: '~0.3.2',
+193 verbose parsed url   path: '~0.3.2',
+193 verbose parsed url   href: '~0.3.2' }
+194 verbose addNamed [ 'juice', '~0.3.2' ]
+195 verbose addNamed [ null, '>=0.3.2-0 <0.4.0-0' ]
+196 silly lockFile 4a36a991-juice-0-3-2 juice@~0.3.2
+197 verbose lock juice@~0.3.2 C:\Users\user\AppData\Roaming\npm-cache\4a36a991-juice-0-3-2.lock
+198 verbose cache add [ 'async', '0.1.22' ]
+199 verbose cache add name="async" spec="0.1.22" args=["async","0.1.22"]
+200 verbose parsed url { protocol: null,
+200 verbose parsed url   slashes: null,
+200 verbose parsed url   auth: null,
+200 verbose parsed url   host: null,
+200 verbose parsed url   port: null,
+200 verbose parsed url   hostname: null,
+200 verbose parsed url   hash: null,
+200 verbose parsed url   search: null,
+200 verbose parsed url   query: null,
+200 verbose parsed url   pathname: '0.1.22',
+200 verbose parsed url   path: '0.1.22',
+200 verbose parsed url   href: '0.1.22' }
+201 verbose addNamed [ 'async', '0.1.22' ]
+202 verbose addNamed [ '0.1.22', '0.1.22' ]
+203 silly lockFile 09d21715-async-0-1-22 async@0.1.22
+204 verbose lock async@0.1.22 C:\Users\user\AppData\Roaming\npm-cache\09d21715-async-0-1-22.lock
+205 verbose cache add [ 'underscore', '1.3.3' ]
+206 verbose cache add name="underscore" spec="1.3.3" args=["underscore","1.3.3"]
+207 verbose parsed url { protocol: null,
+207 verbose parsed url   slashes: null,
+207 verbose parsed url   auth: null,
+207 verbose parsed url   host: null,
+207 verbose parsed url   port: null,
+207 verbose parsed url   hostname: null,
+207 verbose parsed url   hash: null,
+207 verbose parsed url   search: null,
+207 verbose parsed url   query: null,
+207 verbose parsed url   pathname: '1.3.3',
+207 verbose parsed url   path: '1.3.3',
+207 verbose parsed url   href: '1.3.3' }
+208 verbose addNamed [ 'underscore', '1.3.3' ]
+209 verbose addNamed [ '1.3.3', '1.3.3' ]
+210 silly lockFile 99e765c4-underscore-1-3-3 underscore@1.3.3
+211 verbose lock underscore@1.3.3 C:\Users\user\AppData\Roaming\npm-cache\99e765c4-underscore-1-3-3.lock
+212 verbose url raw pause/0.0.1
+213 verbose url resolving [ 'https://registry.npmjs.org/', './pause/0.0.1' ]
+214 verbose url resolved https://registry.npmjs.org/pause/0.0.1
+215 info trying registry request attempt 1 at 12:30:55
+216 verbose etag "4RVM06TQ0DD975EMA9SCMPVVJ"
+217 http GET https://registry.npmjs.org/pause/0.0.1
+218 silly addNameRange { name: 'pkginfo', range: '>=0.2.0-0 <0.3.0-0', hasData: false }
+219 verbose url raw pkginfo
+220 verbose url resolving [ 'https://registry.npmjs.org/', './pkginfo' ]
+221 verbose url resolved https://registry.npmjs.org/pkginfo
+222 info trying registry request attempt 1 at 12:30:55
+223 verbose etag "EC6S2W2FNXE2F9VJ68VS4LZGP"
+224 http GET https://registry.npmjs.org/pkginfo
+225 silly addNameRange { name: 'juice', range: '>=0.3.2-0 <0.4.0-0', hasData: false }
+226 verbose url raw ejs/0.8.3
+227 verbose url resolving [ 'https://registry.npmjs.org/', './ejs/0.8.3' ]
+228 verbose url resolved https://registry.npmjs.org/ejs/0.8.3
+229 info trying registry request attempt 1 at 12:30:55
+230 verbose etag "DT5LS1KTP95C0LL6WWRMQ1M6U"
+231 http GET https://registry.npmjs.org/ejs/0.8.3
+232 verbose url raw async/0.1.22
+233 verbose url resolving [ 'https://registry.npmjs.org/', './async/0.1.22' ]
+234 verbose url resolved https://registry.npmjs.org/async/0.1.22
+235 info trying registry request attempt 1 at 12:30:55
+236 verbose etag "6S0U8SDEI89TXNMSEJ8BH9LOR"
+237 http GET https://registry.npmjs.org/async/0.1.22
+238 verbose url raw underscore/1.3.3
+239 verbose url resolving [ 'https://registry.npmjs.org/', './underscore/1.3.3' ]
+240 verbose url resolved https://registry.npmjs.org/underscore/1.3.3
+241 info trying registry request attempt 1 at 12:30:55
+242 verbose etag "97R88T1AJ9V4XZ30205HSIA5G"
+243 http GET https://registry.npmjs.org/underscore/1.3.3
+244 verbose url raw juice
+245 verbose url resolving [ 'https://registry.npmjs.org/', './juice' ]
+246 verbose url resolved https://registry.npmjs.org/juice
+247 info trying registry request attempt 1 at 12:30:55
+248 verbose etag "BACD1AJ3BX81D9EA1MHQBW9YN"
+249 http GET https://registry.npmjs.org/juice
+250 silly registry.get cb [ 304, undefined ]
+251 verbose etag mongoose from cache
+252 silly registry.get cb [ 304, undefined ]
+253 verbose etag express from cache
+254 silly addNameRange number 2 { name: 'mongoose', range: '>=3.6.0-0 <3.7.0-0', hasData: true }
+255 silly addNameRange versions [ 'mongoose',
+255 silly addNameRange   [ '0.0.1',
+255 silly addNameRange     '0.0.2',
+255 silly addNameRange     '0.0.3',
+255 silly addNameRange     '0.0.4',
+255 silly addNameRange     '0.0.5',
+255 silly addNameRange     '1.0.0',
+255 silly addNameRange     '1.0.1',
+255 silly addNameRange     '1.0.2',
+255 silly addNameRange     '0.0.6',
+255 silly addNameRange     '1.0.3',
+255 silly addNameRange     '1.0.4',
+255 silly addNameRange     '1.0.5',
+255 silly addNameRange     '1.0.6',
+255 silly addNameRange     '1.0.7',
+255 silly addNameRange     '1.0.8',
+255 silly addNameRange     '1.0.10',
+255 silly addNameRange     '1.0.11',
+255 silly addNameRange     '1.0.12',
+255 silly addNameRange     '1.0.13',
+255 silly addNameRange     '1.0.14',
+255 silly addNameRange     '1.0.15',
+255 silly addNameRange     '1.0.16',
+255 silly addNameRange     '1.1.0',
+255 silly addNameRange     '1.1.1',
+255 silly addNameRange     '1.1.2',
+255 silly addNameRange     '1.1.3',
+255 silly addNameRange     '1.1.4',
+255 silly addNameRange     '1.1.5',
+255 silly addNameRange     '1.1.6',
+255 silly addNameRange     '1.1.7',
+255 silly addNameRange     '1.1.8',
+255 silly addNameRange     '1.1.9',
+255 silly addNameRange     '1.1.10',
+255 silly addNameRange     '1.1.11',
+255 silly addNameRange     '1.1.12',
+255 silly addNameRange     '1.1.13',
+255 silly addNameRange     '1.1.14',
+255 silly addNameRange     '1.1.15',
+255 silly addNameRange     '1.1.16',
+255 silly addNameRange     '1.1.17',
+255 silly addNameRange     '1.1.18',
+255 silly addNameRange     '1.1.19',
+255 silly addNameRange     '1.1.20',
+255 silly addNameRange     '1.1.21',
+255 silly addNameRange     '1.1.22',
+255 silly addNameRange     '1.1.23',
+255 silly addNameRange     '1.1.24',
+255 silly addNameRange     '1.1.25',
+255 silly addNameRange     '1.2.0',
+255 silly addNameRange     '1.3.0',
+255 silly addNameRange     '1.3.1',
+255 silly addNameRange     '1.3.2',
+255 silly addNameRange     '1.3.3',
+255 silly addNameRange     '1.3.4',
+255 silly addNameRange     '1.3.5',
+255 silly addNameRange     '1.3.6',
+255 silly addNameRange     '1.3.7',
+255 silly addNameRange     '1.4.0',
+255 silly addNameRange     '1.5.0',
+255 silly addNameRange     '1.6.0',
+255 silly addNameRange     '1.7.2',
+255 silly addNameRange     '1.7.3',
+255 silly addNameRange     '1.7.4',
+255 silly addNameRange     '1.8.0',
+255 silly addNameRange     '1.8.1',
+255 silly addNameRange     '1.8.2',
+255 silly addNameRange     '1.8.3',
+255 silly addNameRange     '1.8.4',
+255 silly addNameRange     '2.0.0',
+255 silly addNameRange     '2.0.1',
+255 silly addNameRange     '2.0.2',
+255 silly addNameRange     '2.0.3',
+255 silly addNameRange     '2.0.4',
+255 silly addNameRange     '2.1.0',
+255 silly addNameRange     '2.1.1',
+255 silly addNameRange     '2.1.2',
+255 silly addNameRange     '2.1.3',
+255 silly addNameRange     '2.1.4',
+255 silly addNameRange     '2.2.0',
+255 silly addNameRange     '2.2.1',
+255 silly addNameRange     '2.2.2',
+255 silly addNameRange     '2.2.3',
+255 silly addNameRange     '2.2.4',
+255 silly addNameRange     '2.3.0',
+255 silly addNameRange     '2.3.1',
+255 silly addNameRange     '2.3.2',
+255 silly addNameRange     '2.3.3',
+255 silly addNameRange     '2.3.4',
+255 silly addNameRange     '2.3.5',
+255 silly addNameRange     '2.3.6',
+255 silly addNameRange     '2.3.7',
+255 silly addNameRange     '2.3.8',
+255 silly addNameRange     '2.3.9',
+255 silly addNameRange     '2.3.10',
+255 silly addNameRange     '2.3.11',
+255 silly addNameRange     '2.3.12',
+255 silly addNameRange     '2.3.13',
+255 silly addNameRange     '2.4.0',
+255 silly addNameRange     '2.4.1',
+255 silly addNameRange     '2.4.2',
+255 silly addNameRange     '2.4.3',
+255 silly addNameRange     '2.4.4',
+255 silly addNameRange     '2.4.5',
+255 silly addNameRange     '2.4.6',
+255 silly addNameRange     '2.4.7',
+255 silly addNameRange     '2.4.8',
+255 silly addNameRange     '2.4.9',
+255 silly addNameRange     '2.4.10',
+255 silly addNameRange     '2.5.0',
+255 silly addNameRange     '2.5.1',
+255 silly addNameRange     '2.5.2',
+255 silly addNameRange     '2.5.3',
+255 silly addNameRange     '2.5.4',
+255 silly addNameRange     '2.5.5',
+255 silly addNameRange     '2.5.6',
+255 silly addNameRange     '2.5.7',
+255 silly addNameRange     '2.5.8',
+255 silly addNameRange     '2.5.9',
+255 silly addNameRange     '2.5.10',
+255 silly addNameRange     '2.5.11',
+255 silly addNameRange     '2.5.12',
+255 silly addNameRange     '2.5.13',
+255 silly addNameRange     '2.5.14',
+255 silly addNameRange     '2.6.0',
+255 silly addNameRange     '2.6.1',
+255 silly addNameRange     '2.6.2',
+255 silly addNameRange     '2.6.3',
+255 silly addNameRange     '2.6.4',
+255 silly addNameRange     '2.6.5',
+255 silly addNameRange     '2.6.6',
+255 silly addNameRange     '2.6.7',
+255 silly addNameRange     '2.6.8',
+255 silly addNameRange     '2.7.0',
+255 silly addNameRange     '3.0.0alpha1',
+255 silly addNameRange     '2.7.1',
+255 silly addNameRange     '2.7.2',
+255 silly addNameRange     '3.0.0alpha2',
+255 silly addNameRange     '3.0.0rc0',
+255 silly addNameRange     '2.7.4',
+255 silly addNameRange     '2.7.3',
+255 silly addNameRange     '3.0.0',
+255 silly addNameRange     '3.0.1',
+255 silly addNameRange     '3.0.2',
+255 silly addNameRange     '2.8.0',
+255 silly addNameRange     '3.0.3',
+255 silly addNameRange     '3.1.0',
+255 silly addNameRange     '2.8.1',
+255 silly addNameRange     '3.1.2-pre',
+255 silly addNameRange     '3.1.1',
+255 silly addNameRange     '2.8.2',
+255 silly addNameRange     '2.8.3',
+255 silly addNameRange     '3.1.2',
+255 silly addNameRange     '2.9.0',
+255 silly addNameRange     '3.2.0',
+255 silly addNameRange     '2.9.1',
+255 silly addNameRange     '3.2.1',
+255 silly addNameRange     '2.9.2',
+255 silly addNameRange     '3.2.2',
+255 silly addNameRange     '3.3.0',
+255 silly addNameRange     '3.3.1',
+255 silly addNameRange     '2.9.3',
+255 silly addNameRange     '3.4.0',
+255 silly addNameRange     '2.9.4',
+255 silly addNameRange     '2.9.5',
+255 silly addNameRange     '3.5.0',
+255 silly addNameRange     '3.5.1',
+255 silly addNameRange     '3.5.2',
+255 silly addNameRange     '3.5.3',
+255 silly addNameRange     '2.9.6',
+255 silly addNameRange     '2.9.7',
+255 silly addNameRange     '3.5.4',
+255 silly addNameRange     '3.5.5',
+255 silly addNameRange     '3.6.0rc0',
+255 silly addNameRange     '2.9.8',
+255 silly addNameRange     '2.9.9',
+255 silly addNameRange     '3.5.6',
+255 silly addNameRange     '3.5.7',
+255 silly addNameRange     '3.6.0rc1',
+255 silly addNameRange     '3.5.8',
+255 silly addNameRange     '2.9.10',
+255 silly addNameRange     '3.5.9',
+255 silly addNameRange     '3.6.2',
+255 silly addNameRange     '3.5.10',
+255 silly addNameRange     '3.6.3',
+255 silly addNameRange     '3.5.11',
+255 silly addNameRange     '3.6.4',
+255 silly addNameRange     '3.6.5',
+255 silly addNameRange     '3.6.6',
+255 silly addNameRange     '3.6.7',
+255 silly addNameRange     '3.5.12',
+255 silly addNameRange     '3.6.8',
+255 silly addNameRange     '3.6.9',
+255 silly addNameRange     '3.6.10',
+255 silly addNameRange     '3.5.13',
+255 silly addNameRange     '3.5.14',
+255 silly addNameRange     '3.6.11' ] ]
+256 verbose addNamed [ 'mongoose', '3.6.11' ]
+257 verbose addNamed [ '3.6.11', '3.6.11' ]
+258 silly lockFile 03f34c88-mongoose-3-6-11 mongoose@3.6.11
+259 verbose lock mongoose@3.6.11 C:\Users\user\AppData\Roaming\npm-cache\03f34c88-mongoose-3-6-11.lock
+260 silly addNameRange number 2 { name: 'express', range: '>=3.1.0-0 <3.2.0-0', hasData: true }
+261 silly addNameRange versions [ 'express',
+261 silly addNameRange   [ '0.14.0',
+261 silly addNameRange     '0.14.1',
+261 silly addNameRange     '1.0.0',
+261 silly addNameRange     '1.0.1',
+261 silly addNameRange     '1.0.2',
+261 silly addNameRange     '1.0.3',
+261 silly addNameRange     '1.0.4',
+261 silly addNameRange     '1.0.5',
+261 silly addNameRange     '1.0.6',
+261 silly addNameRange     '1.0.7',
+261 silly addNameRange     '1.0.8',
+261 silly addNameRange     '2.0.0',
+261 silly addNameRange     '2.1.0',
+261 silly addNameRange     '2.1.1',
+261 silly addNameRange     '2.2.0',
+261 silly addNameRange     '2.2.1',
+261 silly addNameRange     '2.2.2',
+261 silly addNameRange     '2.3.0',
+261 silly addNameRange     '2.3.1',
+261 silly addNameRange     '2.3.2',
+261 silly addNameRange     '2.3.3',
+261 silly addNameRange     '2.3.4',
+261 silly addNameRange     '2.3.5',
+261 silly addNameRange     '2.3.6',
+261 silly addNameRange     '2.3.7',
+261 silly addNameRange     '2.3.8',
+261 silly addNameRange     '2.3.9',
+261 silly addNameRange     '2.3.10',
+261 silly addNameRange     '2.3.11',
+261 silly addNameRange     '2.3.12',
+261 silly addNameRange     '2.4.0',
+261 silly addNameRange     '2.4.1',
+261 silly addNameRange     '2.4.2',
+261 silly addNameRange     '2.4.3',
+261 silly addNameRange     '2.4.4',
+261 silly addNameRange     '2.4.5',
+261 silly addNameRange     '2.4.6',
+261 silly addNameRange     '2.4.7',
+261 silly addNameRange     '2.5.0',
+261 silly addNameRange     '2.5.1',
+261 silly addNameRange     '2.5.2',
+261 silly addNameRange     '2.5.3',
+261 silly addNameRange     '2.5.4',
+261 silly addNameRange     '2.5.5',
+261 silly addNameRange     '2.5.6',
+261 silly addNameRange     '2.5.7',
+261 silly addNameRange     '2.5.8',
+261 silly addNameRange     '2.5.9',
+261 silly addNameRange     '2.5.10',
+261 silly addNameRange     '2.5.11',
+261 silly addNameRange     '3.0.0',
+261 silly addNameRange     '3.0.1',
+261 silly addNameRange     '3.0.2',
+261 silly addNameRange     '3.0.3',
+261 silly addNameRange     '3.0.4',
+261 silly addNameRange     '3.0.5',
+261 silly addNameRange     '3.0.6',
+261 silly addNameRange     '3.1.0',
+261 silly addNameRange     '3.1.1',
+261 silly addNameRange     '3.1.2',
+261 silly addNameRange     '3.2.0',
+261 silly addNameRange     '3.2.1',
+261 silly addNameRange     '3.2.2',
+261 silly addNameRange     '3.2.3',
+261 silly addNameRange     '3.2.4',
+261 silly addNameRange     '3.2.5',
+261 silly addNameRange     '3.2.6',
+261 silly addNameRange     '3.3.0',
+261 silly addNameRange     '3.3.1',
+261 silly addNameRange     '3.3.2',
+261 silly addNameRange     '3.3.3',
+261 silly addNameRange     '3.3.4',
+261 silly addNameRange     '1.0.0-beta',
+261 silly addNameRange     '1.0.0-beta2',
+261 silly addNameRange     '1.0.0-rc',
+261 silly addNameRange     '1.0.0-rc2',
+261 silly addNameRange     '1.0.0-rc3',
+261 silly addNameRange     '1.0.0-rc4',
+261 silly addNameRange     '2.0.0-beta',
+261 silly addNameRange     '2.0.0-beta2',
+261 silly addNameRange     '2.0.0-beta3',
+261 silly addNameRange     '2.0.0-rc',
+261 silly addNameRange     '2.0.0-rc2',
+261 silly addNameRange     '2.0.0-rc3',
+261 silly addNameRange     '3.0.0-alpha1',
+261 silly addNameRange     '3.0.0-alpha2',
+261 silly addNameRange     '3.0.0-alpha3',
+261 silly addNameRange     '3.0.0-alpha4',
+261 silly addNameRange     '3.0.0-alpha5',
+261 silly addNameRange     '3.0.0-beta1',
+261 silly addNameRange     '3.0.0-beta2',
+261 silly addNameRange     '3.0.0-beta3',
+261 silly addNameRange     '3.0.0-beta4',
+261 silly addNameRange     '3.0.0-beta6',
+261 silly addNameRange     '3.0.0-beta7',
+261 silly addNameRange     '3.0.0-rc1',
+261 silly addNameRange     '3.0.0-rc2',
+261 silly addNameRange     '3.0.0-rc3',
+261 silly addNameRange     '3.0.0-rc4',
+261 silly addNameRange     '3.0.0-rc5' ] ]
+262 verbose addNamed [ 'express', '3.1.2' ]
+263 verbose addNamed [ '3.1.2', '3.1.2' ]
+264 silly lockFile 71c9dc33-express-3-1-2 express@3.1.2
+265 verbose lock express@3.1.2 C:\Users\user\AppData\Roaming\npm-cache\71c9dc33-express-3-1-2.lock
+266 silly lockFile c22897a1-org-mongoose-mongoose-3-6-11-tgz https://registry.npmjs.org/mongoose/-/mongoose-3.6.11.tgz
+267 verbose lock https://registry.npmjs.org/mongoose/-/mongoose-3.6.11.tgz C:\Users\user\AppData\Roaming\npm-cache\c22897a1-org-mongoose-mongoose-3-6-11-tgz.lock
+268 verbose addRemoteTarball [ 'https://registry.npmjs.org/mongoose/-/mongoose-3.6.11.tgz',
+268 verbose addRemoteTarball   'b94cac6701f82a5a81b587853ba0fccbc25df0cb' ]
+269 info retry fetch attempt 1 at 12:31:02
+270 verbose fetch to= C:\Users\user\AppData\Local\Temp\npm-9960-iriJUhww\1380796262146-0.7186354491859674\tmp.tgz
+271 http GET https://registry.npmjs.org/mongoose/-/mongoose-3.6.11.tgz
+272 silly lockFile 71c9dc33-express-3-1-2 express@3.1.2
+273 silly lockFile 71c9dc33-express-3-1-2 express@3.1.2
+274 silly lockFile d9823270-express-3-1-0 express@~3.1.0
+275 silly lockFile d9823270-express-3-1-0 express@~3.1.0
+276 silly registry.get cb [ 304, undefined ]
+277 verbose etag nodemailer/0.5.2 from cache
+278 silly lockFile efb5b675-nodemailer-0-5-2 nodemailer@0.5.2
+279 silly lockFile efb5b675-nodemailer-0-5-2 nodemailer@0.5.2
+280 silly registry.get cb [ 304, undefined ]
+281 verbose etag path from cache
+282 silly addNameRange number 2 { name: 'path', range: '>=0.4.9-0 <0.5.0-0', hasData: true }
+283 silly addNameRange versions [ 'path', [ '0.4.9' ] ]
+284 verbose addNamed [ 'path', '0.4.9' ]
+285 verbose addNamed [ '0.4.9', '0.4.9' ]
+286 silly lockFile f9561765-path-0-4-9 path@0.4.9
+287 verbose lock path@0.4.9 C:\Users\user\AppData\Roaming\npm-cache\f9561765-path-0-4-9.lock
+288 silly lockFile f9561765-path-0-4-9 path@0.4.9
+289 silly lockFile f9561765-path-0-4-9 path@0.4.9
+290 silly lockFile dcf59ca8-path-0-4-9 path@~0.4.9
+291 silly lockFile dcf59ca8-path-0-4-9 path@~0.4.9
+292 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+293 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+294 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+295 error fetch failed https://registry.npmjs.org/mongoose/-/mongoose-3.6.11.tgz
+296 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+297 info trying registry request attempt 2 at 12:31:26
+298 verbose etag "647O87R0SVQ2Y4LYCBRSGUUMA"
+299 http GET https://registry.npmjs.org/passport
+300 info trying registry request attempt 2 at 12:31:32
+301 verbose etag "4RVM06TQ0DD975EMA9SCMPVVJ"
+302 http GET https://registry.npmjs.org/pause/0.0.1
+303 info trying registry request attempt 2 at 12:31:32
+304 verbose etag "EC6S2W2FNXE2F9VJ68VS4LZGP"
+305 http GET https://registry.npmjs.org/pkginfo
+306 info retry fetch attempt 2 at 12:31:33
+307 verbose fetch to= C:\Users\user\AppData\Local\Temp\npm-9960-iriJUhww\1380796262146-0.7186354491859674\tmp.tgz
+308 http GET https://registry.npmjs.org/mongoose/-/mongoose-3.6.11.tgz
+309 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+310 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+311 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+312 info trying registry request attempt 2 at 12:31:43
+313 verbose etag "DT5LS1KTP95C0LL6WWRMQ1M6U"
+314 http GET https://registry.npmjs.org/ejs/0.8.3
+315 info trying registry request attempt 2 at 12:31:43
+316 verbose etag "6S0U8SDEI89TXNMSEJ8BH9LOR"
+317 http GET https://registry.npmjs.org/async/0.1.22
+318 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+319 info trying registry request attempt 2 at 12:31:47
+320 verbose etag "97R88T1AJ9V4XZ30205HSIA5G"
+321 http GET https://registry.npmjs.org/underscore/1.3.3
+322 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+323 info trying registry request attempt 2 at 12:31:53
+324 verbose etag "BACD1AJ3BX81D9EA1MHQBW9YN"
+325 http GET https://registry.npmjs.org/juice
+326 error fetch failed https://registry.npmjs.org/mongoose/-/mongoose-3.6.11.tgz
+327 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+328 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+329 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+330 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+331 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+332 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+333 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+334 info trying registry request attempt 3 at 12:32:47
+335 verbose etag "647O87R0SVQ2Y4LYCBRSGUUMA"
+336 http GET https://registry.npmjs.org/passport
+337 info retry fetch attempt 3 at 12:32:54
+338 verbose fetch to= C:\Users\user\AppData\Local\Temp\npm-9960-iriJUhww\1380796262146-0.7186354491859674\tmp.tgz
+339 http GET https://registry.npmjs.org/mongoose/-/mongoose-3.6.11.tgz
+340 info trying registry request attempt 3 at 12:32:54
+341 verbose etag "4RVM06TQ0DD975EMA9SCMPVVJ"
+342 http GET https://registry.npmjs.org/pause/0.0.1
+343 info trying registry request attempt 3 at 12:32:54
+344 verbose etag "EC6S2W2FNXE2F9VJ68VS4LZGP"
+345 http GET https://registry.npmjs.org/pkginfo
+346 info trying registry request attempt 3 at 12:33:04
+347 verbose etag "DT5LS1KTP95C0LL6WWRMQ1M6U"
+348 http GET https://registry.npmjs.org/ejs/0.8.3
+349 info trying registry request attempt 3 at 12:33:04
+350 verbose etag "6S0U8SDEI89TXNMSEJ8BH9LOR"
+351 http GET https://registry.npmjs.org/async/0.1.22
+352 info trying registry request attempt 3 at 12:33:08
+353 verbose etag "97R88T1AJ9V4XZ30205HSIA5G"
+354 http GET https://registry.npmjs.org/underscore/1.3.3
+355 silly registry.get cb [ 304, undefined ]
+356 verbose etag passport from cache
+357 silly addNameRange number 2 { name: 'passport', range: '>=0.1.1-0 <0.2.0-0', hasData: true }
+358 silly addNameRange versions [ 'passport',
+358 silly addNameRange   [ '0.1.0',
+358 silly addNameRange     '0.1.1',
+358 silly addNameRange     '0.1.2',
+358 silly addNameRange     '0.1.3',
+358 silly addNameRange     '0.1.4',
+358 silly addNameRange     '0.1.5',
+358 silly addNameRange     '0.1.6',
+358 silly addNameRange     '0.1.7',
+358 silly addNameRange     '0.1.8',
+358 silly addNameRange     '0.1.9',
+358 silly addNameRange     '0.1.10',
+358 silly addNameRange     '0.1.11',
+358 silly addNameRange     '0.1.12',
+358 silly addNameRange     '0.1.13',
+358 silly addNameRange     '0.1.14',
+358 silly addNameRange     '0.1.15',
+358 silly addNameRange     '0.1.16',
+358 silly addNameRange     '0.1.17' ] ]
+359 verbose addNamed [ 'passport', '0.1.17' ]
+360 verbose addNamed [ '0.1.17', '0.1.17' ]
+361 silly lockFile 78b0a3f0-passport-0-1-17 passport@0.1.17
+362 verbose lock passport@0.1.17 C:\Users\user\AppData\Roaming\npm-cache\78b0a3f0-passport-0-1-17.lock
+363 silly lockFile 78b0a3f0-passport-0-1-17 passport@0.1.17
+364 silly lockFile 78b0a3f0-passport-0-1-17 passport@0.1.17
+365 silly lockFile 58df7143-passport-0-1-1 passport@~0.1.1
+366 silly lockFile 58df7143-passport-0-1-1 passport@~0.1.1
+367 error fetch failed https://registry.npmjs.org/mongoose/-/mongoose-3.6.11.tgz
+368 silly lockFile c22897a1-org-mongoose-mongoose-3-6-11-tgz https://registry.npmjs.org/mongoose/-/mongoose-3.6.11.tgz
+369 silly lockFile c22897a1-org-mongoose-mongoose-3-6-11-tgz https://registry.npmjs.org/mongoose/-/mongoose-3.6.11.tgz
+370 silly lockFile 03f34c88-mongoose-3-6-11 mongoose@3.6.11
+371 silly lockFile 03f34c88-mongoose-3-6-11 mongoose@3.6.11
+372 silly lockFile 61496211-mongoose-3-6-x mongoose@~3.6.x
+373 silly lockFile 61496211-mongoose-3-6-x mongoose@~3.6.x
+374 verbose cache add [ 'hooks', '0.2.1' ]
+375 verbose cache add name="hooks" spec="0.2.1" args=["hooks","0.2.1"]
+376 verbose parsed url { protocol: null,
+376 verbose parsed url   slashes: null,
+376 verbose parsed url   auth: null,
+376 verbose parsed url   host: null,
+376 verbose parsed url   port: null,
+376 verbose parsed url   hostname: null,
+376 verbose parsed url   hash: null,
+376 verbose parsed url   search: null,
+376 verbose parsed url   query: null,
+376 verbose parsed url   pathname: '0.2.1',
+376 verbose parsed url   path: '0.2.1',
+376 verbose parsed url   href: '0.2.1' }
+377 verbose addNamed [ 'hooks', '0.2.1' ]
+378 verbose addNamed [ '0.2.1', '0.2.1' ]
+379 silly lockFile 207ce50b-hooks-0-2-1 hooks@0.2.1
+380 verbose lock hooks@0.2.1 C:\Users\user\AppData\Roaming\npm-cache\207ce50b-hooks-0-2-1.lock
+381 verbose cache add [ 'mongodb', '1.3.5' ]
+382 verbose cache add name="mongodb" spec="1.3.5" args=["mongodb","1.3.5"]
+383 verbose parsed url { protocol: null,
+383 verbose parsed url   slashes: null,
+383 verbose parsed url   auth: null,
+383 verbose parsed url   host: null,
+383 verbose parsed url   port: null,
+383 verbose parsed url   hostname: null,
+383 verbose parsed url   hash: null,
+383 verbose parsed url   search: null,
+383 verbose parsed url   query: null,
+383 verbose parsed url   pathname: '1.3.5',
+383 verbose parsed url   path: '1.3.5',
+383 verbose parsed url   href: '1.3.5' }
+384 verbose addNamed [ 'mongodb', '1.3.5' ]
+385 verbose addNamed [ '1.3.5', '1.3.5' ]
+386 silly lockFile 03795c43-mongodb-1-3-5 mongodb@1.3.5
+387 verbose lock mongodb@1.3.5 C:\Users\user\AppData\Roaming\npm-cache\03795c43-mongodb-1-3-5.lock
+388 verbose cache add [ 'ms', '0.1.0' ]
+389 verbose cache add name="ms" spec="0.1.0" args=["ms","0.1.0"]
+390 verbose parsed url { protocol: null,
+390 verbose parsed url   slashes: null,
+390 verbose parsed url   auth: null,
+390 verbose parsed url   host: null,
+390 verbose parsed url   port: null,
+390 verbose parsed url   hostname: null,
+390 verbose parsed url   hash: null,
+390 verbose parsed url   search: null,
+390 verbose parsed url   query: null,
+390 verbose parsed url   pathname: '0.1.0',
+390 verbose parsed url   path: '0.1.0',
+390 verbose parsed url   href: '0.1.0' }
+391 verbose addNamed [ 'ms', '0.1.0' ]
+392 verbose addNamed [ '0.1.0', '0.1.0' ]
+393 silly lockFile 9555626c-ms-0-1-0 ms@0.1.0
+394 verbose lock ms@0.1.0 C:\Users\user\AppData\Roaming\npm-cache\9555626c-ms-0-1-0.lock
+395 verbose cache add [ 'sliced', '0.0.3' ]
+396 verbose cache add name="sliced" spec="0.0.3" args=["sliced","0.0.3"]
+397 verbose parsed url { protocol: null,
+397 verbose parsed url   slashes: null,
+397 verbose parsed url   auth: null,
+397 verbose parsed url   host: null,
+397 verbose parsed url   port: null,
+397 verbose parsed url   hostname: null,
+397 verbose parsed url   hash: null,
+397 verbose parsed url   search: null,
+397 verbose parsed url   query: null,
+397 verbose parsed url   pathname: '0.0.3',
+397 verbose parsed url   path: '0.0.3',
+397 verbose parsed url   href: '0.0.3' }
+398 verbose addNamed [ 'sliced', '0.0.3' ]
+399 verbose addNamed [ '0.0.3', '0.0.3' ]
+400 silly lockFile 75155ca2-sliced-0-0-3 sliced@0.0.3
+401 verbose lock sliced@0.0.3 C:\Users\user\AppData\Roaming\npm-cache\75155ca2-sliced-0-0-3.lock
+402 verbose cache add [ 'muri', '0.3.1' ]
+403 verbose cache add name="muri" spec="0.3.1" args=["muri","0.3.1"]
+404 verbose parsed url { protocol: null,
+404 verbose parsed url   slashes: null,
+404 verbose parsed url   auth: null,
+404 verbose parsed url   host: null,
+404 verbose parsed url   port: null,
+404 verbose parsed url   hostname: null,
+404 verbose parsed url   hash: null,
+404 verbose parsed url   search: null,
+404 verbose parsed url   query: null,
+404 verbose parsed url   pathname: '0.3.1',
+404 verbose parsed url   path: '0.3.1',
+404 verbose parsed url   href: '0.3.1' }
+405 verbose addNamed [ 'muri', '0.3.1' ]
+406 verbose addNamed [ '0.3.1', '0.3.1' ]
+407 silly lockFile 01b66c9e-muri-0-3-1 muri@0.3.1
+408 verbose lock muri@0.3.1 C:\Users\user\AppData\Roaming\npm-cache\01b66c9e-muri-0-3-1.lock
+409 verbose url raw ms/0.1.0
+410 verbose url resolving [ 'https://registry.npmjs.org/', './ms/0.1.0' ]
+411 verbose url resolved https://registry.npmjs.org/ms/0.1.0
+412 info trying registry request attempt 1 at 12:33:15
+413 verbose etag "6G1UY5RTPKW1GM07G00TRK0RD"
+414 http GET https://registry.npmjs.org/ms/0.1.0
+415 verbose url raw mongodb/1.3.5
+416 verbose url resolving [ 'https://registry.npmjs.org/', './mongodb/1.3.5' ]
+417 verbose url resolved https://registry.npmjs.org/mongodb/1.3.5
+418 info trying registry request attempt 1 at 12:33:15
+419 verbose etag "A1Q6DOKBCVJOCHTCJ32XE6HA2"
+420 http GET https://registry.npmjs.org/mongodb/1.3.5
+421 verbose url raw muri/0.3.1
+422 verbose url resolving [ 'https://registry.npmjs.org/', './muri/0.3.1' ]
+423 verbose url resolved https://registry.npmjs.org/muri/0.3.1
+424 info trying registry request attempt 1 at 12:33:15
+425 verbose etag "1MQMD0G3BCT00PMGZ8LA7K9EI"
+426 http GET https://registry.npmjs.org/muri/0.3.1
+427 verbose url raw sliced/0.0.3
+428 verbose url resolving [ 'https://registry.npmjs.org/', './sliced/0.0.3' ]
+429 verbose url resolved https://registry.npmjs.org/sliced/0.0.3
+430 info trying registry request attempt 1 at 12:33:15
+431 verbose etag "8QREHSMO6IA2DV4ANAHCT1ZH"
+432 http GET https://registry.npmjs.org/sliced/0.0.3
+433 silly registry.get cb [ 304, undefined ]
+434 verbose etag pause/0.0.1 from cache
+435 info trying registry request attempt 3 at 12:33:15
+436 verbose etag "BACD1AJ3BX81D9EA1MHQBW9YN"
+437 http GET https://registry.npmjs.org/juice
+438 verbose url raw hooks/0.2.1
+439 verbose url resolving [ 'https://registry.npmjs.org/', './hooks/0.2.1' ]
+440 verbose url resolved https://registry.npmjs.org/hooks/0.2.1
+441 info trying registry request attempt 1 at 12:33:15
+442 verbose etag "5NR8ZT0KB22UPF07CGU84DT6V"
+443 http GET https://registry.npmjs.org/hooks/0.2.1
+444 silly lockFile c62fc432-pause-0-0-1 pause@0.0.1
+445 silly lockFile c62fc432-pause-0-0-1 pause@0.0.1
+446 silly registry.get cb [ 304, undefined ]
+447 verbose etag pkginfo from cache
+448 silly addNameRange number 2 { name: 'pkginfo', range: '>=0.2.0-0 <0.3.0-0', hasData: true }
+449 silly addNameRange versions [ 'pkginfo', [ '0.2.1', '0.2.2', '0.2.3', '0.3.0' ] ]
+450 verbose addNamed [ 'pkginfo', '0.2.3' ]
+451 verbose addNamed [ '0.2.3', '0.2.3' ]
+452 silly lockFile d1747791-pkginfo-0-2-3 pkginfo@0.2.3
+453 verbose lock pkginfo@0.2.3 C:\Users\user\AppData\Roaming\npm-cache\d1747791-pkginfo-0-2-3.lock
+454 silly lockFile d1747791-pkginfo-0-2-3 pkginfo@0.2.3
+455 silly lockFile d1747791-pkginfo-0-2-3 pkginfo@0.2.3
+456 silly lockFile f898f07d-pkginfo-0-2-x pkginfo@0.2.x
+457 silly lockFile f898f07d-pkginfo-0-2-x pkginfo@0.2.x
+458 silly registry.get cb [ 304, undefined ]
+459 verbose etag ejs/0.8.3 from cache
+460 silly lockFile 63abddb0-ejs-0-8-3 ejs@0.8.3
+461 silly lockFile 63abddb0-ejs-0-8-3 ejs@0.8.3
+462 silly registry.get cb [ 304, undefined ]
+463 verbose etag async/0.1.22 from cache
+464 silly lockFile 09d21715-async-0-1-22 async@0.1.22
+465 silly lockFile 09d21715-async-0-1-22 async@0.1.22
+466 silly registry.get cb [ 304, undefined ]
+467 verbose etag underscore/1.3.3 from cache
+468 silly lockFile 99e765c4-underscore-1-3-3 underscore@1.3.3
+469 silly lockFile 99e765c4-underscore-1-3-3 underscore@1.3.3
+470 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+471 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+472 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+473 info trying registry request attempt 2 at 12:33:46
+474 verbose etag "6G1UY5RTPKW1GM07G00TRK0RD"
+475 http GET https://registry.npmjs.org/ms/0.1.0
+476 info trying registry request attempt 2 at 12:33:46
+477 verbose etag "A1Q6DOKBCVJOCHTCJ32XE6HA2"
+478 http GET https://registry.npmjs.org/mongodb/1.3.5
+479 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+480 silly registry.get cb [ 304, undefined ]
+481 verbose etag juice from cache
+482 silly addNameRange number 2 { name: 'juice', range: '>=0.3.2-0 <0.4.0-0', hasData: true }
+483 silly addNameRange versions [ 'juice',
+483 silly addNameRange   [ '0.0.1',
+483 silly addNameRange     '0.0.2',
+483 silly addNameRange     '0.0.3',
+483 silly addNameRange     '0.0.4',
+483 silly addNameRange     '0.0.5',
+483 silly addNameRange     '0.0.6',
+483 silly addNameRange     '0.0.7',
+483 silly addNameRange     '0.0.8',
+483 silly addNameRange     '0.0.9',
+483 silly addNameRange     '0.1.0',
+483 silly addNameRange     '0.1.1',
+483 silly addNameRange     '0.1.2',
+483 silly addNameRange     '0.1.3',
+483 silly addNameRange     '0.2.0',
+483 silly addNameRange     '0.3.0',
+483 silly addNameRange     '0.3.1',
+483 silly addNameRange     '0.3.2',
+483 silly addNameRange     '0.3.3',
+483 silly addNameRange     '0.4.0' ] ]
+484 verbose addNamed [ 'juice', '0.3.3' ]
+485 verbose addNamed [ '0.3.3', '0.3.3' ]
+486 silly lockFile e7ebcd9d-juice-0-3-3 juice@0.3.3
+487 verbose lock juice@0.3.3 C:\Users\user\AppData\Roaming\npm-cache\e7ebcd9d-juice-0-3-3.lock
+488 silly lockFile e7ebcd9d-juice-0-3-3 juice@0.3.3
+489 silly lockFile e7ebcd9d-juice-0-3-3 juice@0.3.3
+490 silly lockFile 4a36a991-juice-0-3-2 juice@~0.3.2
+491 silly lockFile 4a36a991-juice-0-3-2 juice@~0.3.2
+492 info trying registry request attempt 2 at 12:33:56
+493 verbose etag "1MQMD0G3BCT00PMGZ8LA7K9EI"
+494 http GET https://registry.npmjs.org/muri/0.3.1
+495 info trying registry request attempt 2 at 12:33:56
+496 verbose etag "8QREHSMO6IA2DV4ANAHCT1ZH"
+497 http GET https://registry.npmjs.org/sliced/0.0.3
+498 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+499 info trying registry request attempt 2 at 12:34:07
+500 verbose etag "5NR8ZT0KB22UPF07CGU84DT6V"
+501 http GET https://registry.npmjs.org/hooks/0.2.1
+502 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+503 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+504 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+505 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+506 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+507 info trying registry request attempt 3 at 12:35:07
+508 verbose etag "A1Q6DOKBCVJOCHTCJ32XE6HA2"
+509 http GET https://registry.npmjs.org/mongodb/1.3.5
+510 info trying registry request attempt 3 at 12:35:07
+511 verbose etag "6G1UY5RTPKW1GM07G00TRK0RD"
+512 http GET https://registry.npmjs.org/ms/0.1.0
+513 info trying registry request attempt 3 at 12:35:17
+514 verbose etag "1MQMD0G3BCT00PMGZ8LA7K9EI"
+515 http GET https://registry.npmjs.org/muri/0.3.1
+516 info trying registry request attempt 3 at 12:35:17
+517 verbose etag "8QREHSMO6IA2DV4ANAHCT1ZH"
+518 http GET https://registry.npmjs.org/sliced/0.0.3
+519 info trying registry request attempt 3 at 12:35:28
+520 verbose etag "5NR8ZT0KB22UPF07CGU84DT6V"
+521 http GET https://registry.npmjs.org/hooks/0.2.1
+522 silly registry.get cb [ 304, undefined ]
+523 verbose etag mongodb/1.3.5 from cache
+524 silly registry.get cb [ 304, undefined ]
+525 verbose etag ms/0.1.0 from cache
+526 silly lockFile 9555626c-ms-0-1-0 ms@0.1.0
+527 silly lockFile 9555626c-ms-0-1-0 ms@0.1.0
+528 silly lockFile 03795c43-mongodb-1-3-5 mongodb@1.3.5
+529 silly lockFile 03795c43-mongodb-1-3-5 mongodb@1.3.5
+530 silly registry.get cb [ 304, undefined ]
+531 verbose etag muri/0.3.1 from cache
+532 silly lockFile 01b66c9e-muri-0-3-1 muri@0.3.1
+533 silly lockFile 01b66c9e-muri-0-3-1 muri@0.3.1
+534 silly registry.get cb [ 304, undefined ]
+535 verbose etag sliced/0.0.3 from cache
+536 silly lockFile 75155ca2-sliced-0-0-3 sliced@0.0.3
+537 silly lockFile 75155ca2-sliced-0-0-3 sliced@0.0.3
+538 silly registry.get cb [ 304, undefined ]
+539 verbose etag hooks/0.2.1 from cache
+540 silly lockFile 207ce50b-hooks-0-2-1 hooks@0.2.1
+541 silly lockFile 207ce50b-hooks-0-2-1 hooks@0.2.1
+542 info outdated updating [ [ 'C:\\Users\\user\\wishesSpace\\101Whishes',
+542 info outdated     'express',
+542 info outdated     '3.1.2',
+542 info outdated     '3.1.2',
+542 info outdated     '~3.1.0' ],
+542 info outdated   [ 'C:\\Users\\user\\wishesSpace\\101Whishes',
+542 info outdated     'nodemailer',
+542 info outdated     '0.5.2',
+542 info outdated     '0.5.2',
+542 info outdated     '0.5.2' ],
+542 info outdated   [ 'C:\\Users\\user\\wishesSpace\\101Whishes',
+542 info outdated     'path',
+542 info outdated     '0.4.9',
+542 info outdated     '0.4.9',
+542 info outdated     '~0.4.9' ],
+542 info outdated   [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\passport',
+542 info outdated     'pause',
+542 info outdated     '0.0.1',
+542 info outdated     '0.0.1',
+542 info outdated     '0.0.1' ],
+542 info outdated   [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\passport',
+542 info outdated     'pkginfo',
+542 info outdated     '0.2.3',
+542 info outdated     '0.2.3',
+542 info outdated     '0.2.x' ],
+542 info outdated   [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\passport-local',
+542 info outdated     'passport',
+542 info outdated     '0.1.17',
+542 info outdated     '0.1.17',
+542 info outdated     '~0.1.1' ],
+542 info outdated   [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\passport-local',
+542 info outdated     'pkginfo',
+542 info outdated     '0.2.3',
+542 info outdated     '0.2.3',
+542 info outdated     '0.2.x' ],
+542 info outdated   [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\email-templates',
+542 info outdated     'ejs',
+542 info outdated     '0.8.3',
+542 info outdated     '0.8.3',
+542 info outdated     '0.8.3' ],
+542 info outdated   [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\email-templates',
+542 info outdated     'async',
+542 info outdated     '0.1.22',
+542 info outdated     '0.1.22',
+542 info outdated     '0.1.22' ],
+542 info outdated   [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\email-templates',
+542 info outdated     'underscore',
+542 info outdated     '1.3.3',
+542 info outdated     '1.3.3',
+542 info outdated     '1.3.3' ],
+542 info outdated   [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\email-templates',
+542 info outdated     'juice',
+542 info outdated     '0.3.3',
+542 info outdated     '0.3.3',
+542 info outdated     '~0.3.2' ],
+542 info outdated   [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\mongoose',
+542 info outdated     'ms',
+542 info outdated     '0.1.0',
+542 info outdated     '0.1.0',
+542 info outdated     '0.1.0' ],
+542 info outdated   [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\mongoose',
+542 info outdated     'mongodb',
+542 info outdated     '1.3.5',
+542 info outdated     '1.3.5',
+542 info outdated     '1.3.5' ],
+542 info outdated   [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\mongoose',
+542 info outdated     'muri',
+542 info outdated     '0.3.1',
+542 info outdated     '0.3.1',
+542 info outdated     '0.3.1' ],
+542 info outdated   [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\mongoose',
+542 info outdated     'sliced',
+542 info outdated     '0.0.3',
+542 info outdated     '0.0.3',
+542 info outdated     '0.0.3' ],
+542 info outdated   [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\mongoose',
+542 info outdated     'hooks',
+542 info outdated     '0.2.1',
+542 info outdated     '0.2.1',
+542 info outdated     '0.2.1' ] ]
+543 verbose install where,what [ 'C:\\Users\\user\\wishesSpace\\101Whishes',
+543 verbose install   [ 'express@3.1.2' ] ]
+544 verbose install where,what [ 'C:\\Users\\user\\wishesSpace\\101Whishes',
+544 verbose install   [ 'nodemailer@0.5.2' ] ]
+545 verbose install where,what [ 'C:\\Users\\user\\wishesSpace\\101Whishes', [ 'path@0.4.9' ] ]
+546 verbose install where,what [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\passport',
+546 verbose install   [ 'pause@0.0.1' ] ]
+547 verbose install where,what [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\passport',
+547 verbose install   [ 'pkginfo@0.2.3' ] ]
+548 verbose install where,what [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\passport-local',
+548 verbose install   [ 'passport@0.1.17' ] ]
+549 verbose install where,what [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\passport-local',
+549 verbose install   [ 'pkginfo@0.2.3' ] ]
+550 verbose install where,what [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\email-templates',
+550 verbose install   [ 'ejs@0.8.3' ] ]
+551 verbose install where,what [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\email-templates',
+551 verbose install   [ 'async@0.1.22' ] ]
+552 verbose install where,what [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\email-templates',
+552 verbose install   [ 'underscore@1.3.3' ] ]
+553 verbose install where,what [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\email-templates',
+553 verbose install   [ 'juice@0.3.3' ] ]
+554 verbose install where,what [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\mongoose',
+554 verbose install   [ 'ms@0.1.0' ] ]
+555 verbose install where,what [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\mongoose',
+555 verbose install   [ 'mongodb@1.3.5' ] ]
+556 verbose install where,what [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\mongoose',
+556 verbose install   [ 'muri@0.3.1' ] ]
+557 verbose install where,what [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\mongoose',
+557 verbose install   [ 'sliced@0.0.3' ] ]
+558 verbose install where,what [ 'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\mongoose',
+558 verbose install   [ 'hooks@0.2.1' ] ]
+559 verbose readDependencies using package.json deps
+560 verbose cache add [ 'express@3.1.2', null ]
+561 verbose cache add name=undefined spec="express@3.1.2" args=["express@3.1.2",null]
+562 verbose parsed url { protocol: null,
+562 verbose parsed url   slashes: null,
+562 verbose parsed url   auth: null,
+562 verbose parsed url   host: null,
+562 verbose parsed url   port: null,
+562 verbose parsed url   hostname: null,
+562 verbose parsed url   hash: null,
+562 verbose parsed url   search: null,
+562 verbose parsed url   query: null,
+562 verbose parsed url   pathname: 'express@3.1.2',
+562 verbose parsed url   path: 'express@3.1.2',
+562 verbose parsed url   href: 'express@3.1.2' }
+563 verbose cache add name="express" spec="3.1.2" args=["express","3.1.2"]
+564 verbose parsed url { protocol: null,
+564 verbose parsed url   slashes: null,
+564 verbose parsed url   auth: null,
+564 verbose parsed url   host: null,
+564 verbose parsed url   port: null,
+564 verbose parsed url   hostname: null,
+564 verbose parsed url   hash: null,
+564 verbose parsed url   search: null,
+564 verbose parsed url   query: null,
+564 verbose parsed url   pathname: '3.1.2',
+564 verbose parsed url   path: '3.1.2',
+564 verbose parsed url   href: '3.1.2' }
+565 verbose addNamed [ 'express', '3.1.2' ]
+566 verbose addNamed [ '3.1.2', '3.1.2' ]
+567 silly lockFile 71c9dc33-express-3-1-2 express@3.1.2
+568 verbose lock express@3.1.2 C:\Users\user\AppData\Roaming\npm-cache\71c9dc33-express-3-1-2.lock
+569 verbose readDependencies using package.json deps
+570 verbose cache add [ 'nodemailer@0.5.2', null ]
+571 verbose cache add name=undefined spec="nodemailer@0.5.2" args=["nodemailer@0.5.2",null]
+572 verbose parsed url { protocol: null,
+572 verbose parsed url   slashes: null,
+572 verbose parsed url   auth: null,
+572 verbose parsed url   host: null,
+572 verbose parsed url   port: null,
+572 verbose parsed url   hostname: null,
+572 verbose parsed url   hash: null,
+572 verbose parsed url   search: null,
+572 verbose parsed url   query: null,
+572 verbose parsed url   pathname: 'nodemailer@0.5.2',
+572 verbose parsed url   path: 'nodemailer@0.5.2',
+572 verbose parsed url   href: 'nodemailer@0.5.2' }
+573 verbose cache add name="nodemailer" spec="0.5.2" args=["nodemailer","0.5.2"]
+574 verbose parsed url { protocol: null,
+574 verbose parsed url   slashes: null,
+574 verbose parsed url   auth: null,
+574 verbose parsed url   host: null,
+574 verbose parsed url   port: null,
+574 verbose parsed url   hostname: null,
+574 verbose parsed url   hash: null,
+574 verbose parsed url   search: null,
+574 verbose parsed url   query: null,
+574 verbose parsed url   pathname: '0.5.2',
+574 verbose parsed url   path: '0.5.2',
+574 verbose parsed url   href: '0.5.2' }
+575 verbose addNamed [ 'nodemailer', '0.5.2' ]
+576 verbose addNamed [ '0.5.2', '0.5.2' ]
+577 silly lockFile efb5b675-nodemailer-0-5-2 nodemailer@0.5.2
+578 verbose lock nodemailer@0.5.2 C:\Users\user\AppData\Roaming\npm-cache\efb5b675-nodemailer-0-5-2.lock
+579 verbose readDependencies using package.json deps
+580 verbose cache add [ 'path@0.4.9', null ]
+581 verbose cache add name=undefined spec="path@0.4.9" args=["path@0.4.9",null]
+582 verbose parsed url { protocol: null,
+582 verbose parsed url   slashes: null,
+582 verbose parsed url   auth: null,
+582 verbose parsed url   host: null,
+582 verbose parsed url   port: null,
+582 verbose parsed url   hostname: null,
+582 verbose parsed url   hash: null,
+582 verbose parsed url   search: null,
+582 verbose parsed url   query: null,
+582 verbose parsed url   pathname: 'path@0.4.9',
+582 verbose parsed url   path: 'path@0.4.9',
+582 verbose parsed url   href: 'path@0.4.9' }
+583 verbose cache add name="path" spec="0.4.9" args=["path","0.4.9"]
+584 verbose parsed url { protocol: null,
+584 verbose parsed url   slashes: null,
+584 verbose parsed url   auth: null,
+584 verbose parsed url   host: null,
+584 verbose parsed url   port: null,
+584 verbose parsed url   hostname: null,
+584 verbose parsed url   hash: null,
+584 verbose parsed url   search: null,
+584 verbose parsed url   query: null,
+584 verbose parsed url   pathname: '0.4.9',
+584 verbose parsed url   path: '0.4.9',
+584 verbose parsed url   href: '0.4.9' }
+585 verbose addNamed [ 'path', '0.4.9' ]
+586 verbose addNamed [ '0.4.9', '0.4.9' ]
+587 silly lockFile f9561765-path-0-4-9 path@0.4.9
+588 verbose lock path@0.4.9 C:\Users\user\AppData\Roaming\npm-cache\f9561765-path-0-4-9.lock
+589 verbose readDependencies using package.json deps
+590 verbose cache add [ 'pause@0.0.1', null ]
+591 verbose cache add name=undefined spec="pause@0.0.1" args=["pause@0.0.1",null]
+592 verbose parsed url { protocol: null,
+592 verbose parsed url   slashes: null,
+592 verbose parsed url   auth: null,
+592 verbose parsed url   host: null,
+592 verbose parsed url   port: null,
+592 verbose parsed url   hostname: null,
+592 verbose parsed url   hash: null,
+592 verbose parsed url   search: null,
+592 verbose parsed url   query: null,
+592 verbose parsed url   pathname: 'pause@0.0.1',
+592 verbose parsed url   path: 'pause@0.0.1',
+592 verbose parsed url   href: 'pause@0.0.1' }
+593 verbose cache add name="pause" spec="0.0.1" args=["pause","0.0.1"]
+594 verbose parsed url { protocol: null,
+594 verbose parsed url   slashes: null,
+594 verbose parsed url   auth: null,
+594 verbose parsed url   host: null,
+594 verbose parsed url   port: null,
+594 verbose parsed url   hostname: null,
+594 verbose parsed url   hash: null,
+594 verbose parsed url   search: null,
+594 verbose parsed url   query: null,
+594 verbose parsed url   pathname: '0.0.1',
+594 verbose parsed url   path: '0.0.1',
+594 verbose parsed url   href: '0.0.1' }
+595 verbose addNamed [ 'pause', '0.0.1' ]
+596 verbose addNamed [ '0.0.1', '0.0.1' ]
+597 silly lockFile c62fc432-pause-0-0-1 pause@0.0.1
+598 verbose lock pause@0.0.1 C:\Users\user\AppData\Roaming\npm-cache\c62fc432-pause-0-0-1.lock
+599 verbose readDependencies using package.json deps
+600 verbose cache add [ 'pkginfo@0.2.3', null ]
+601 verbose cache add name=undefined spec="pkginfo@0.2.3" args=["pkginfo@0.2.3",null]
+602 verbose parsed url { protocol: null,
+602 verbose parsed url   slashes: null,
+602 verbose parsed url   auth: null,
+602 verbose parsed url   host: null,
+602 verbose parsed url   port: null,
+602 verbose parsed url   hostname: null,
+602 verbose parsed url   hash: null,
+602 verbose parsed url   search: null,
+602 verbose parsed url   query: null,
+602 verbose parsed url   pathname: 'pkginfo@0.2.3',
+602 verbose parsed url   path: 'pkginfo@0.2.3',
+602 verbose parsed url   href: 'pkginfo@0.2.3' }
+603 verbose cache add name="pkginfo" spec="0.2.3" args=["pkginfo","0.2.3"]
+604 verbose parsed url { protocol: null,
+604 verbose parsed url   slashes: null,
+604 verbose parsed url   auth: null,
+604 verbose parsed url   host: null,
+604 verbose parsed url   port: null,
+604 verbose parsed url   hostname: null,
+604 verbose parsed url   hash: null,
+604 verbose parsed url   search: null,
+604 verbose parsed url   query: null,
+604 verbose parsed url   pathname: '0.2.3',
+604 verbose parsed url   path: '0.2.3',
+604 verbose parsed url   href: '0.2.3' }
+605 verbose addNamed [ 'pkginfo', '0.2.3' ]
+606 verbose addNamed [ '0.2.3', '0.2.3' ]
+607 silly lockFile d1747791-pkginfo-0-2-3 pkginfo@0.2.3
+608 verbose lock pkginfo@0.2.3 C:\Users\user\AppData\Roaming\npm-cache\d1747791-pkginfo-0-2-3.lock
+609 verbose readDependencies using package.json deps
+610 verbose cache add [ 'passport@0.1.17', null ]
+611 verbose cache add name=undefined spec="passport@0.1.17" args=["passport@0.1.17",null]
+612 verbose parsed url { protocol: null,
+612 verbose parsed url   slashes: null,
+612 verbose parsed url   auth: null,
+612 verbose parsed url   host: null,
+612 verbose parsed url   port: null,
+612 verbose parsed url   hostname: null,
+612 verbose parsed url   hash: null,
+612 verbose parsed url   search: null,
+612 verbose parsed url   query: null,
+612 verbose parsed url   pathname: 'passport@0.1.17',
+612 verbose parsed url   path: 'passport@0.1.17',
+612 verbose parsed url   href: 'passport@0.1.17' }
+613 verbose cache add name="passport" spec="0.1.17" args=["passport","0.1.17"]
+614 verbose parsed url { protocol: null,
+614 verbose parsed url   slashes: null,
+614 verbose parsed url   auth: null,
+614 verbose parsed url   host: null,
+614 verbose parsed url   port: null,
+614 verbose parsed url   hostname: null,
+614 verbose parsed url   hash: null,
+614 verbose parsed url   search: null,
+614 verbose parsed url   query: null,
+614 verbose parsed url   pathname: '0.1.17',
+614 verbose parsed url   path: '0.1.17',
+614 verbose parsed url   href: '0.1.17' }
+615 verbose addNamed [ 'passport', '0.1.17' ]
+616 verbose addNamed [ '0.1.17', '0.1.17' ]
+617 silly lockFile 78b0a3f0-passport-0-1-17 passport@0.1.17
+618 verbose lock passport@0.1.17 C:\Users\user\AppData\Roaming\npm-cache\78b0a3f0-passport-0-1-17.lock
+619 verbose readDependencies using package.json deps
+620 verbose cache add [ 'pkginfo@0.2.3', null ]
+621 verbose cache add name=undefined spec="pkginfo@0.2.3" args=["pkginfo@0.2.3",null]
+622 verbose parsed url { protocol: null,
+622 verbose parsed url   slashes: null,
+622 verbose parsed url   auth: null,
+622 verbose parsed url   host: null,
+622 verbose parsed url   port: null,
+622 verbose parsed url   hostname: null,
+622 verbose parsed url   hash: null,
+622 verbose parsed url   search: null,
+622 verbose parsed url   query: null,
+622 verbose parsed url   pathname: 'pkginfo@0.2.3',
+622 verbose parsed url   path: 'pkginfo@0.2.3',
+622 verbose parsed url   href: 'pkginfo@0.2.3' }
+623 verbose cache add name="pkginfo" spec="0.2.3" args=["pkginfo","0.2.3"]
+624 verbose parsed url { protocol: null,
+624 verbose parsed url   slashes: null,
+624 verbose parsed url   auth: null,
+624 verbose parsed url   host: null,
+624 verbose parsed url   port: null,
+624 verbose parsed url   hostname: null,
+624 verbose parsed url   hash: null,
+624 verbose parsed url   search: null,
+624 verbose parsed url   query: null,
+624 verbose parsed url   pathname: '0.2.3',
+624 verbose parsed url   path: '0.2.3',
+624 verbose parsed url   href: '0.2.3' }
+625 verbose addNamed [ 'pkginfo', '0.2.3' ]
+626 verbose readDependencies using package.json deps
+627 verbose cache add [ 'ejs@0.8.3', null ]
+628 verbose cache add name=undefined spec="ejs@0.8.3" args=["ejs@0.8.3",null]
+629 verbose parsed url { protocol: null,
+629 verbose parsed url   slashes: null,
+629 verbose parsed url   auth: null,
+629 verbose parsed url   host: null,
+629 verbose parsed url   port: null,
+629 verbose parsed url   hostname: null,
+629 verbose parsed url   hash: null,
+629 verbose parsed url   search: null,
+629 verbose parsed url   query: null,
+629 verbose parsed url   pathname: 'ejs@0.8.3',
+629 verbose parsed url   path: 'ejs@0.8.3',
+629 verbose parsed url   href: 'ejs@0.8.3' }
+630 verbose cache add name="ejs" spec="0.8.3" args=["ejs","0.8.3"]
+631 verbose parsed url { protocol: null,
+631 verbose parsed url   slashes: null,
+631 verbose parsed url   auth: null,
+631 verbose parsed url   host: null,
+631 verbose parsed url   port: null,
+631 verbose parsed url   hostname: null,
+631 verbose parsed url   hash: null,
+631 verbose parsed url   search: null,
+631 verbose parsed url   query: null,
+631 verbose parsed url   pathname: '0.8.3',
+631 verbose parsed url   path: '0.8.3',
+631 verbose parsed url   href: '0.8.3' }
+632 verbose addNamed [ 'ejs', '0.8.3' ]
+633 verbose addNamed [ '0.8.3', '0.8.3' ]
+634 silly lockFile 63abddb0-ejs-0-8-3 ejs@0.8.3
+635 verbose lock ejs@0.8.3 C:\Users\user\AppData\Roaming\npm-cache\63abddb0-ejs-0-8-3.lock
+636 verbose readDependencies using package.json deps
+637 verbose cache add [ 'async@0.1.22', null ]
+638 verbose cache add name=undefined spec="async@0.1.22" args=["async@0.1.22",null]
+639 verbose parsed url { protocol: null,
+639 verbose parsed url   slashes: null,
+639 verbose parsed url   auth: null,
+639 verbose parsed url   host: null,
+639 verbose parsed url   port: null,
+639 verbose parsed url   hostname: null,
+639 verbose parsed url   hash: null,
+639 verbose parsed url   search: null,
+639 verbose parsed url   query: null,
+639 verbose parsed url   pathname: 'async@0.1.22',
+639 verbose parsed url   path: 'async@0.1.22',
+639 verbose parsed url   href: 'async@0.1.22' }
+640 verbose cache add name="async" spec="0.1.22" args=["async","0.1.22"]
+641 verbose parsed url { protocol: null,
+641 verbose parsed url   slashes: null,
+641 verbose parsed url   auth: null,
+641 verbose parsed url   host: null,
+641 verbose parsed url   port: null,
+641 verbose parsed url   hostname: null,
+641 verbose parsed url   hash: null,
+641 verbose parsed url   search: null,
+641 verbose parsed url   query: null,
+641 verbose parsed url   pathname: '0.1.22',
+641 verbose parsed url   path: '0.1.22',
+641 verbose parsed url   href: '0.1.22' }
+642 verbose addNamed [ 'async', '0.1.22' ]
+643 verbose addNamed [ '0.1.22', '0.1.22' ]
+644 silly lockFile 09d21715-async-0-1-22 async@0.1.22
+645 verbose lock async@0.1.22 C:\Users\user\AppData\Roaming\npm-cache\09d21715-async-0-1-22.lock
+646 verbose readDependencies using package.json deps
+647 verbose cache add [ 'underscore@1.3.3', null ]
+648 verbose cache add name=undefined spec="underscore@1.3.3" args=["underscore@1.3.3",null]
+649 verbose parsed url { protocol: null,
+649 verbose parsed url   slashes: null,
+649 verbose parsed url   auth: null,
+649 verbose parsed url   host: null,
+649 verbose parsed url   port: null,
+649 verbose parsed url   hostname: null,
+649 verbose parsed url   hash: null,
+649 verbose parsed url   search: null,
+649 verbose parsed url   query: null,
+649 verbose parsed url   pathname: 'underscore@1.3.3',
+649 verbose parsed url   path: 'underscore@1.3.3',
+649 verbose parsed url   href: 'underscore@1.3.3' }
+650 verbose cache add name="underscore" spec="1.3.3" args=["underscore","1.3.3"]
+651 verbose parsed url { protocol: null,
+651 verbose parsed url   slashes: null,
+651 verbose parsed url   auth: null,
+651 verbose parsed url   host: null,
+651 verbose parsed url   port: null,
+651 verbose parsed url   hostname: null,
+651 verbose parsed url   hash: null,
+651 verbose parsed url   search: null,
+651 verbose parsed url   query: null,
+651 verbose parsed url   pathname: '1.3.3',
+651 verbose parsed url   path: '1.3.3',
+651 verbose parsed url   href: '1.3.3' }
+652 verbose addNamed [ 'underscore', '1.3.3' ]
+653 verbose addNamed [ '1.3.3', '1.3.3' ]
+654 silly lockFile 99e765c4-underscore-1-3-3 underscore@1.3.3
+655 verbose lock underscore@1.3.3 C:\Users\user\AppData\Roaming\npm-cache\99e765c4-underscore-1-3-3.lock
+656 verbose readDependencies using package.json deps
+657 verbose cache add [ 'juice@0.3.3', null ]
+658 verbose cache add name=undefined spec="juice@0.3.3" args=["juice@0.3.3",null]
+659 verbose parsed url { protocol: null,
+659 verbose parsed url   slashes: null,
+659 verbose parsed url   auth: null,
+659 verbose parsed url   host: null,
+659 verbose parsed url   port: null,
+659 verbose parsed url   hostname: null,
+659 verbose parsed url   hash: null,
+659 verbose parsed url   search: null,
+659 verbose parsed url   query: null,
+659 verbose parsed url   pathname: 'juice@0.3.3',
+659 verbose parsed url   path: 'juice@0.3.3',
+659 verbose parsed url   href: 'juice@0.3.3' }
+660 verbose cache add name="juice" spec="0.3.3" args=["juice","0.3.3"]
+661 verbose parsed url { protocol: null,
+661 verbose parsed url   slashes: null,
+661 verbose parsed url   auth: null,
+661 verbose parsed url   host: null,
+661 verbose parsed url   port: null,
+661 verbose parsed url   hostname: null,
+661 verbose parsed url   hash: null,
+661 verbose parsed url   search: null,
+661 verbose parsed url   query: null,
+661 verbose parsed url   pathname: '0.3.3',
+661 verbose parsed url   path: '0.3.3',
+661 verbose parsed url   href: '0.3.3' }
+662 verbose addNamed [ 'juice', '0.3.3' ]
+663 verbose addNamed [ '0.3.3', '0.3.3' ]
+664 silly lockFile e7ebcd9d-juice-0-3-3 juice@0.3.3
+665 verbose lock juice@0.3.3 C:\Users\user\AppData\Roaming\npm-cache\e7ebcd9d-juice-0-3-3.lock
+666 verbose readDependencies using package.json deps
+667 verbose cache add [ 'ms@0.1.0', null ]
+668 verbose cache add name=undefined spec="ms@0.1.0" args=["ms@0.1.0",null]
+669 verbose parsed url { protocol: null,
+669 verbose parsed url   slashes: null,
+669 verbose parsed url   auth: null,
+669 verbose parsed url   host: null,
+669 verbose parsed url   port: null,
+669 verbose parsed url   hostname: null,
+669 verbose parsed url   hash: null,
+669 verbose parsed url   search: null,
+669 verbose parsed url   query: null,
+669 verbose parsed url   pathname: 'ms@0.1.0',
+669 verbose parsed url   path: 'ms@0.1.0',
+669 verbose parsed url   href: 'ms@0.1.0' }
+670 verbose cache add name="ms" spec="0.1.0" args=["ms","0.1.0"]
+671 verbose parsed url { protocol: null,
+671 verbose parsed url   slashes: null,
+671 verbose parsed url   auth: null,
+671 verbose parsed url   host: null,
+671 verbose parsed url   port: null,
+671 verbose parsed url   hostname: null,
+671 verbose parsed url   hash: null,
+671 verbose parsed url   search: null,
+671 verbose parsed url   query: null,
+671 verbose parsed url   pathname: '0.1.0',
+671 verbose parsed url   path: '0.1.0',
+671 verbose parsed url   href: '0.1.0' }
+672 verbose addNamed [ 'ms', '0.1.0' ]
+673 verbose addNamed [ '0.1.0', '0.1.0' ]
+674 silly lockFile 9555626c-ms-0-1-0 ms@0.1.0
+675 verbose lock ms@0.1.0 C:\Users\user\AppData\Roaming\npm-cache\9555626c-ms-0-1-0.lock
+676 verbose readDependencies using package.json deps
+677 verbose cache add [ 'mongodb@1.3.5', null ]
+678 verbose cache add name=undefined spec="mongodb@1.3.5" args=["mongodb@1.3.5",null]
+679 verbose parsed url { protocol: null,
+679 verbose parsed url   slashes: null,
+679 verbose parsed url   auth: null,
+679 verbose parsed url   host: null,
+679 verbose parsed url   port: null,
+679 verbose parsed url   hostname: null,
+679 verbose parsed url   hash: null,
+679 verbose parsed url   search: null,
+679 verbose parsed url   query: null,
+679 verbose parsed url   pathname: 'mongodb@1.3.5',
+679 verbose parsed url   path: 'mongodb@1.3.5',
+679 verbose parsed url   href: 'mongodb@1.3.5' }
+680 verbose cache add name="mongodb" spec="1.3.5" args=["mongodb","1.3.5"]
+681 verbose parsed url { protocol: null,
+681 verbose parsed url   slashes: null,
+681 verbose parsed url   auth: null,
+681 verbose parsed url   host: null,
+681 verbose parsed url   port: null,
+681 verbose parsed url   hostname: null,
+681 verbose parsed url   hash: null,
+681 verbose parsed url   search: null,
+681 verbose parsed url   query: null,
+681 verbose parsed url   pathname: '1.3.5',
+681 verbose parsed url   path: '1.3.5',
+681 verbose parsed url   href: '1.3.5' }
+682 verbose addNamed [ 'mongodb', '1.3.5' ]
+683 verbose addNamed [ '1.3.5', '1.3.5' ]
+684 silly lockFile 03795c43-mongodb-1-3-5 mongodb@1.3.5
+685 verbose lock mongodb@1.3.5 C:\Users\user\AppData\Roaming\npm-cache\03795c43-mongodb-1-3-5.lock
+686 verbose readDependencies using package.json deps
+687 verbose cache add [ 'muri@0.3.1', null ]
+688 verbose cache add name=undefined spec="muri@0.3.1" args=["muri@0.3.1",null]
+689 verbose parsed url { protocol: null,
+689 verbose parsed url   slashes: null,
+689 verbose parsed url   auth: null,
+689 verbose parsed url   host: null,
+689 verbose parsed url   port: null,
+689 verbose parsed url   hostname: null,
+689 verbose parsed url   hash: null,
+689 verbose parsed url   search: null,
+689 verbose parsed url   query: null,
+689 verbose parsed url   pathname: 'muri@0.3.1',
+689 verbose parsed url   path: 'muri@0.3.1',
+689 verbose parsed url   href: 'muri@0.3.1' }
+690 verbose cache add name="muri" spec="0.3.1" args=["muri","0.3.1"]
+691 verbose parsed url { protocol: null,
+691 verbose parsed url   slashes: null,
+691 verbose parsed url   auth: null,
+691 verbose parsed url   host: null,
+691 verbose parsed url   port: null,
+691 verbose parsed url   hostname: null,
+691 verbose parsed url   hash: null,
+691 verbose parsed url   search: null,
+691 verbose parsed url   query: null,
+691 verbose parsed url   pathname: '0.3.1',
+691 verbose parsed url   path: '0.3.1',
+691 verbose parsed url   href: '0.3.1' }
+692 verbose addNamed [ 'muri', '0.3.1' ]
+693 verbose addNamed [ '0.3.1', '0.3.1' ]
+694 silly lockFile 01b66c9e-muri-0-3-1 muri@0.3.1
+695 verbose lock muri@0.3.1 C:\Users\user\AppData\Roaming\npm-cache\01b66c9e-muri-0-3-1.lock
+696 verbose readDependencies using package.json deps
+697 verbose cache add [ 'sliced@0.0.3', null ]
+698 verbose cache add name=undefined spec="sliced@0.0.3" args=["sliced@0.0.3",null]
+699 verbose parsed url { protocol: null,
+699 verbose parsed url   slashes: null,
+699 verbose parsed url   auth: null,
+699 verbose parsed url   host: null,
+699 verbose parsed url   port: null,
+699 verbose parsed url   hostname: null,
+699 verbose parsed url   hash: null,
+699 verbose parsed url   search: null,
+699 verbose parsed url   query: null,
+699 verbose parsed url   pathname: 'sliced@0.0.3',
+699 verbose parsed url   path: 'sliced@0.0.3',
+699 verbose parsed url   href: 'sliced@0.0.3' }
+700 verbose cache add name="sliced" spec="0.0.3" args=["sliced","0.0.3"]
+701 verbose parsed url { protocol: null,
+701 verbose parsed url   slashes: null,
+701 verbose parsed url   auth: null,
+701 verbose parsed url   host: null,
+701 verbose parsed url   port: null,
+701 verbose parsed url   hostname: null,
+701 verbose parsed url   hash: null,
+701 verbose parsed url   search: null,
+701 verbose parsed url   query: null,
+701 verbose parsed url   pathname: '0.0.3',
+701 verbose parsed url   path: '0.0.3',
+701 verbose parsed url   href: '0.0.3' }
+702 verbose addNamed [ 'sliced', '0.0.3' ]
+703 verbose addNamed [ '0.0.3', '0.0.3' ]
+704 silly lockFile 75155ca2-sliced-0-0-3 sliced@0.0.3
+705 verbose lock sliced@0.0.3 C:\Users\user\AppData\Roaming\npm-cache\75155ca2-sliced-0-0-3.lock
+706 verbose readDependencies using package.json deps
+707 verbose cache add [ 'hooks@0.2.1', null ]
+708 verbose cache add name=undefined spec="hooks@0.2.1" args=["hooks@0.2.1",null]
+709 verbose parsed url { protocol: null,
+709 verbose parsed url   slashes: null,
+709 verbose parsed url   auth: null,
+709 verbose parsed url   host: null,
+709 verbose parsed url   port: null,
+709 verbose parsed url   hostname: null,
+709 verbose parsed url   hash: null,
+709 verbose parsed url   search: null,
+709 verbose parsed url   query: null,
+709 verbose parsed url   pathname: 'hooks@0.2.1',
+709 verbose parsed url   path: 'hooks@0.2.1',
+709 verbose parsed url   href: 'hooks@0.2.1' }
+710 verbose cache add name="hooks" spec="0.2.1" args=["hooks","0.2.1"]
+711 verbose parsed url { protocol: null,
+711 verbose parsed url   slashes: null,
+711 verbose parsed url   auth: null,
+711 verbose parsed url   host: null,
+711 verbose parsed url   port: null,
+711 verbose parsed url   hostname: null,
+711 verbose parsed url   hash: null,
+711 verbose parsed url   search: null,
+711 verbose parsed url   query: null,
+711 verbose parsed url   pathname: '0.2.1',
+711 verbose parsed url   path: '0.2.1',
+711 verbose parsed url   href: '0.2.1' }
+712 verbose addNamed [ 'hooks', '0.2.1' ]
+713 verbose addNamed [ '0.2.1', '0.2.1' ]
+714 silly lockFile 207ce50b-hooks-0-2-1 hooks@0.2.1
+715 verbose lock hooks@0.2.1 C:\Users\user\AppData\Roaming\npm-cache\207ce50b-hooks-0-2-1.lock
+716 verbose url raw express/3.1.2
+717 verbose url resolving [ 'https://registry.npmjs.org/', './express/3.1.2' ]
+718 verbose url resolved https://registry.npmjs.org/express/3.1.2
+719 info trying registry request attempt 1 at 12:35:49
+720 http GET https://registry.npmjs.org/express/3.1.2
+721 verbose url raw path/0.4.9
+722 verbose url resolving [ 'https://registry.npmjs.org/', './path/0.4.9' ]
+723 verbose url resolved https://registry.npmjs.org/path/0.4.9
+724 info trying registry request attempt 1 at 12:35:49
+725 http GET https://registry.npmjs.org/path/0.4.9
+726 verbose url raw pkginfo/0.2.3
+727 verbose url resolving [ 'https://registry.npmjs.org/', './pkginfo/0.2.3' ]
+728 verbose url resolved https://registry.npmjs.org/pkginfo/0.2.3
+729 info trying registry request attempt 1 at 12:35:49
+730 http GET https://registry.npmjs.org/pkginfo/0.2.3
+731 verbose url raw passport/0.1.17
+732 verbose url resolving [ 'https://registry.npmjs.org/', './passport/0.1.17' ]
+733 verbose url resolved https://registry.npmjs.org/passport/0.1.17
+734 info trying registry request attempt 1 at 12:35:49
+735 http GET https://registry.npmjs.org/passport/0.1.17
+736 verbose url raw juice/0.3.3
+737 verbose url resolving [ 'https://registry.npmjs.org/', './juice/0.3.3' ]
+738 verbose url resolved https://registry.npmjs.org/juice/0.3.3
+739 info trying registry request attempt 1 at 12:35:49
+740 http GET https://registry.npmjs.org/juice/0.3.3
+741 verbose url raw pause/0.0.1
+742 verbose url resolving [ 'https://registry.npmjs.org/', './pause/0.0.1' ]
+743 verbose url resolved https://registry.npmjs.org/pause/0.0.1
+744 info trying registry request attempt 1 at 12:35:49
+745 verbose etag "4RVM06TQ0DD975EMA9SCMPVVJ"
+746 http GET https://registry.npmjs.org/pause/0.0.1
+747 verbose url raw nodemailer/0.5.2
+748 verbose url resolving [ 'https://registry.npmjs.org/', './nodemailer/0.5.2' ]
+749 verbose url resolved https://registry.npmjs.org/nodemailer/0.5.2
+750 info trying registry request attempt 1 at 12:35:49
+751 verbose etag "8CLBWEMLEBMIEQCHOZ4BAL13E"
+752 http GET https://registry.npmjs.org/nodemailer/0.5.2
+753 verbose url raw ejs/0.8.3
+754 verbose url resolving [ 'https://registry.npmjs.org/', './ejs/0.8.3' ]
+755 verbose url resolved https://registry.npmjs.org/ejs/0.8.3
+756 info trying registry request attempt 1 at 12:35:49
+757 verbose etag "DT5LS1KTP95C0LL6WWRMQ1M6U"
+758 http GET https://registry.npmjs.org/ejs/0.8.3
+759 verbose url raw async/0.1.22
+760 verbose url resolving [ 'https://registry.npmjs.org/', './async/0.1.22' ]
+761 verbose url resolved https://registry.npmjs.org/async/0.1.22
+762 info trying registry request attempt 1 at 12:35:49
+763 verbose etag "6S0U8SDEI89TXNMSEJ8BH9LOR"
+764 http GET https://registry.npmjs.org/async/0.1.22
+765 verbose url raw underscore/1.3.3
+766 verbose url resolving [ 'https://registry.npmjs.org/', './underscore/1.3.3' ]
+767 verbose url resolved https://registry.npmjs.org/underscore/1.3.3
+768 info trying registry request attempt 1 at 12:35:49
+769 verbose etag "97R88T1AJ9V4XZ30205HSIA5G"
+770 http GET https://registry.npmjs.org/underscore/1.3.3
+771 verbose url raw ms/0.1.0
+772 verbose url resolving [ 'https://registry.npmjs.org/', './ms/0.1.0' ]
+773 verbose url resolved https://registry.npmjs.org/ms/0.1.0
+774 info trying registry request attempt 1 at 12:35:49
+775 verbose etag "6G1UY5RTPKW1GM07G00TRK0RD"
+776 http GET https://registry.npmjs.org/ms/0.1.0
+777 verbose url raw sliced/0.0.3
+778 verbose url resolving [ 'https://registry.npmjs.org/', './sliced/0.0.3' ]
+779 verbose url resolved https://registry.npmjs.org/sliced/0.0.3
+780 info trying registry request attempt 1 at 12:35:49
+781 verbose etag "8QREHSMO6IA2DV4ANAHCT1ZH"
+782 http GET https://registry.npmjs.org/sliced/0.0.3
+783 verbose url raw mongodb/1.3.5
+784 verbose url resolving [ 'https://registry.npmjs.org/', './mongodb/1.3.5' ]
+785 verbose url resolved https://registry.npmjs.org/mongodb/1.3.5
+786 info trying registry request attempt 1 at 12:35:49
+787 verbose etag "A1Q6DOKBCVJOCHTCJ32XE6HA2"
+788 http GET https://registry.npmjs.org/mongodb/1.3.5
+789 verbose url raw muri/0.3.1
+790 verbose url resolving [ 'https://registry.npmjs.org/', './muri/0.3.1' ]
+791 verbose url resolved https://registry.npmjs.org/muri/0.3.1
+792 info trying registry request attempt 1 at 12:35:49
+793 verbose etag "1MQMD0G3BCT00PMGZ8LA7K9EI"
+794 http GET https://registry.npmjs.org/muri/0.3.1
+795 verbose registry.get hooks/0.2.1 not expired, no request
+796 silly lockFile 207ce50b-hooks-0-2-1 hooks@0.2.1
+797 silly lockFile 207ce50b-hooks-0-2-1 hooks@0.2.1
+798 silly resolved [ { name: 'hooks',
+798 silly resolved     description: 'Adds pre and post hook functionality to your JavaScript methods.',
+798 silly resolved     version: '0.2.1',
+798 silly resolved     keywords: [ 'node', 'hooks', 'middleware', 'pre', 'post' ],
+798 silly resolved     homepage: 'https://github.com/bnoguchi/hooks-js/',
+798 silly resolved     repository: { type: 'git', url: 'git://github.com/bnoguchi/hooks-js.git' },
+798 silly resolved     author:
+798 silly resolved      { name: 'Brian Noguchi',
+798 silly resolved        email: 'brian.noguchi@gmail.com',
+798 silly resolved        url: 'https://github.com/bnoguchi/' },
+798 silly resolved     main: './hooks.js',
+798 silly resolved     directories: { lib: '.' },
+798 silly resolved     scripts: { test: 'make test' },
+798 silly resolved     dependencies: {},
+798 silly resolved     devDependencies: { expresso: '>=0.7.6', should: '>=0.2.1', underscore: '>=1.1.4' },
+798 silly resolved     engines: { node: '>=0.4.0' },
+798 silly resolved     licenses: [ 'MIT' ],
+798 silly resolved     optionalDependencies: {},
+798 silly resolved     readme: 'hooks\n============\n\nAdd pre and post middleware hooks to your JavaScript methods.\n\n## Installation\n    npm install hooks\n\n## Motivation\nSuppose you have a JavaScript object with a `save` method.\n\nIt would be nice to be able to declare code that runs before `save` and after `save`.\nFor example, you might want to run validation code before every `save`,\nand you might want to dispatch a job to a background job queue after `save`.\n\nOne might have an urge to hard code this all into `save`, but that turns out to\ncouple all these pieces of functionality (validation, save, and job creation) more\ntightly than is necessary. For example, what if someone does not want to do background\njob creation after the logical save? \n\nIt is nicer to tack on functionality using what we call `pre` and `post` hooks. These\nare functions that you define and that you direct to execute before or after particular\nmethods.\n\n## Example\nWe can use `hooks` to add validation and background jobs in the following way:\n\n    var hooks = require(\'hooks\')\n      , Document = require(\'./path/to/some/document/constructor\');\n\n    // Add hooks\' methods: `hook`, `pre`, and `post`    \n    for (var k in hooks) {\n      Document[k] = hooks[k];\n    }\n\n    // Define a new method that is able to invoke pre and post middleware\n    Document.hook(\'save\', Document.prototype.save);\n\n    // Define a middleware function to be invoked before \'save\'\n    Document.pre(\'save\', function validate (next) {\n      // The `this` context inside of `pre` and `post` functions\n      // is the Document instance\n      if (this.isValid()) next();      // next() passes control to the next middleware\n                                       // or to the target method itself\n      else next(new Error("Invalid")); // next(error) invokes an error callback\n    });\n\n    // Define a middleware function to be invoked after \'save\'\n    Document.post(\'save\', function createJob () {\n      this.sendToBackgroundQueue();\n    });\n\nIf you already have defined `Document.prototype` methods for which you want pres and posts,\nthen you do not need to explicitly invoke `Document.hook(...)`. Invoking `Document.pre(methodName, fn)`\nor `Document.post(methodName, fn)` will automatically and lazily change `Document.prototype[methodName]`\nso that it plays well with `hooks`. An equivalent way to implement the previous example is:\n\n```javascript\nvar hooks = require(\'hooks\')\n  , Document = require(\'./path/to/some/document/constructor\');\n\n// Add hooks\' methods: `hook`, `pre`, and `post`    \nfor (var k in hooks) {\n  Document[k] = hooks[k];\n}\n\nDocument.prototype.save = function () {\n  // ...\n};\n\n// Define a middleware function to be invoked before \'save\'\nDocument.pre(\'save\', function validate (next) {\n  // The `this` context inside of `pre` and `post` functions\n  // is the Document instance\n  if (this.isValid()) next();      // next() passes control to the next middleware\n                                   // or to the target method itself\n  else next(new Error("Invalid")); // next(error) invokes an error callback\n});\n\n// Define a middleware function to be invoked after \'save\'\nDocument.post(\'save\', function createJob () {\n  this.sendToBackgroundQueue();\n});\n```\n\n## Pres and Posts as Middleware\nWe structure pres and posts as middleware to give you maximum flexibility:\n\n1. You can define **multiple** pres (or posts) for a single method.\n2. These pres (or posts) are then executed as a chain of methods.\n3. Any functions in this middleware chain can choose to halt the chain\'s execution by `next`ing an Error from that middleware function. If this occurs, then none of the other middleware in the chain will execute, and the main method (e.g., `save`) will not execute. This is nice, for example, when we don\'t want a document to save if it is invalid.\n\n## Defining multiple pres (or posts)\n`pre` is chainable, so you can define multiple pres via:\n    Document.pre(\'save\', function (next, halt) {\n      console.log("hello");\n    }).pre(\'save\', function (next, halt) {\n      console.log("world");\n    });\n\nAs soon as one pre finishes executing, the next one will be invoked, and so on.\n\n## Error Handling\nYou can define a default error handler by passing a 2nd function as the 3rd argument to `hook`:\n    Document.hook(\'set\', function (path, val) {\n      this[path] = val;\n    }, function (err) {\n      // Handler the error here\n      console.error(err);\n    });\n\nThen, we can pass errors to this handler from a pre or post middleware function:\n    Document.pre(\'set\', function (next, path, val) {\n      next(new Error());\n    });\n\nIf you do not set up a default handler, then `hooks` makes the default handler that just throws the `Error`.\n\nThe default error handler can be over-rided on a per method invocation basis.\n\nIf the main method that you are surrounding with pre and post middleware expects its last argument to be a function\nwith callback signature `function (error, ...)`, then that callback becomes the error handler, over-riding the default\nerror handler you may have set up.\n   \n```javascript\nDocument.hook(\'save\', function (callback) {\n  // Save logic goes here\n  ...\n});\n\nvar doc = new Document();\ndoc.save( function (err, saved) {\n  // We can pass err via `next` in any of our pre or post middleware functions\n  if (err) console.error(err);\n  \n  // Rest of callback logic follows ...\n});\n```\n\n## Mutating Arguments via Middleware\n`pre` and `post` middleware can also accept the intended arguments for the method\nthey augment. This is useful if you want to mutate the arguments before passing\nthem along to the next middleware and eventually pass a mutated arguments list to\nthe main method itself.\n\nAs a simple example, let\'s define a method `set` that just sets a key, value pair.\nIf we want to namespace the key, we can do so by adding a `pre` middleware hook\nthat runs before `set`, alters the arguments by namespacing the `key` argument, and passes them onto `set`:\n\n    Document.hook(\'set\', function (key, val) {\n      this[key] = val;\n    });\n    Document.pre(\'set\', function (next, key, val) {\n      next(\'namespace-\' + key, val);\n    });\n    var doc = new Document();\n    doc.set(\'hello\', \'world\');\n    console.log(doc.hello); // undefined\n    console.log(doc[\'namespace-hello\']); // \'world\'\n\nAs you can see above, we pass arguments via `next`.\n\nIf you are not mutating the arguments, then you can pass zero arguments\nto `next`, and the next middleware function will still have access\nto the arguments.\n\n    Document.hook(\'set\', function (key, val) {\n      this[key] = val;\n    });\n    Document.pre(\'set\', function (next, key, val) {\n      // I have access to key and val here\n      next(); // We don\'t need to pass anything to next\n    });\n    Document.pre(\'set\', function (next, key, val) {\n      // And I still have access to the original key and val here\n      next();\n    });\n\nFinally, you can add arguments that downstream middleware can also see:\n\n    // Note that in the definition of `set`, there is no 3rd argument, options\n    Document.hook(\'set\', function (key, val) {\n      // But...\n      var options = arguments[2]; // ...I have access to an options argument\n                                  // because of pre function pre2 (defined below)\n      console.log(options); // \'{debug: true}\'\n      this[key] = val;\n    });\n    Document.pre(\'set\', function pre1 (next, key, val) {\n      // I only have access to key and val arguments\n      console.log(arguments.length); // 3\n      next(key, val, {debug: true});\n    });\n    Document.pre(\'set\', function pre2 (next, key, val, options) {\n      console.log(arguments.length); // 4\n      console.log(options); // \'{ debug: true}\'\n      next();\n    });\n    Document.pre(\'set\', function pre3 (next, key, val, options) {\n      // I still have access to key, val, AND the options argument introduced via the preceding middleware\n      console.log(arguments.length); // 4\n      console.log(options); // \'{ debug: true}\'\n      next();\n    });\n    \n    var doc = new Document()\n    doc.set(\'hey\', \'there\');\n\n## Parallel `pre` middleware\n\nAll middleware up to this point has been "serial" middleware -- i.e., middleware whose logic\nis executed as a serial chain.\n\nSome scenarios call for parallel middleware -- i.e., middleware that can wait for several\nasynchronous services at once to respond.\n\nFor instance, you may only want to save a Document only after you have checked\nthat the Document is valid according to two different remote services.\n\nWe accomplish asynchronous middleware by adding a second kind of flow control callback\n(the only flow control callback so far has been `next`), called `done`.\n\n- `next` passes control to the next middleware in the chain\n- `done` keeps track of how many parallel middleware have invoked `done` and passes\n   control to the target method when ALL parallel middleware have invoked `done`. If\n   you pass an `Error` to `done`, then the error is handled, and the main method that is\n   wrapped by pres and posts will not get invoked.\n\nWe declare pre middleware that is parallel by passing a 3rd boolean argument to our `pre`\ndefinition method.\n\nWe illustrate via the parallel validation example mentioned above:\n\n    Document.hook(\'save\', function targetFn (callback) {\n      // Save logic goes here\n      // ...\n      // This only gets run once the two `done`s are both invoked via preOne and preTwo.\n    });\n\n                         // true marks this as parallel middleware\n    Document.pre(\'save\', true, function preOne (next, doneOne, callback) {\n      remoteServiceOne.validate(this.serialize(), function (err, isValid) {\n        // The code in here will probably be run after the `next` below this block\n        // and could possibly be run after the console.log("Hola") in `preTwo\n        if (err) return doneOne(err);\n        if (isValid) doneOne();\n      });\n      next(); // Pass control to the next middleware\n    });\n    \n    // We will suppose that we need 2 different remote services to validate our document\n    Document.pre(\'save\', true, function preTwo (next, doneTwo, callback) {\n      remoteServiceTwo.validate(this.serialize(), function (err, isValid) {\n        if (err) return doneTwo(err);\n        if (isValid) doneTwo();\n      });\n      next();\n    });\n    \n    // While preOne and preTwo are parallel, preThree is a serial pre middleware\n    Document.pre(\'save\', function preThree (next, callback) {\n      next();\n    });\n    \n    var doc = new Document();\n    doc.save( function (err, doc) {\n      // Do stuff with the saved doc here...\n    });\n\nIn the above example, flow control may happen in the following way:\n\n(1) doc.save -> (2) preOne --(next)--> (3) preTwo --(next)--> (4) preThree --(next)--> (wait for dones to invoke) -> (5) doneTwo -> (6) doneOne -> (7) targetFn\n\nSo what\'s happening is that:\n\n1. You call `doc.save(...)`\n2. First, your preOne middleware gets executed. It makes a remote call to the validation service and `next()`s to the preTwo middleware.\n3. Now, your preTwo middleware gets executed. It makes a remote call to another validation service and `next()`s to the preThree middleware.\n4. Your preThree middleware gets executed. It immediately `next()`s. But nothing else gets executing until both `doneOne` and `doneTwo` are invoked inside the callbacks handling the response from the two valiation services.\n5. We will suppose that validation remoteServiceTwo returns a response to us first. In this case, we call `doneTwo` inside the callback to remoteServiceTwo.\n6. Some fractions of a second later, remoteServiceOne returns a response to us. In this case, we call `doneOne` inside the callback to remoteServiceOne.\n7. `hooks` implementation keeps track of how many parallel middleware has been defined per target function. It detects that both asynchronous pre middlewares (`preOne` and `preTwo`) have finally called their `done` functions (`doneOne` and `doneTwo`), so the implementation finally invokes our `targetFn` (i.e., our core `save` business logic).\n\n## Removing Pres\n\nYou can remove a particular pre associated with a hook:\n\n    Document.pre(\'set\', someFn);\n    Document.removePre(\'set\', someFn);\n\nAnd you can also remove all pres associated with a hook:\n    Document.removePre(\'set\'); // Removes all declared `pre`s on the hook \'set\'\n\n## Tests\nTo run the tests:\n    make test\n\n### Contributors\n- [Brian Noguchi](https://github.com/bnoguchi)\n\n### License\nMIT License\n\n---\n### Author\nBrian Noguchi\n',
+798 silly resolved     readmeFilename: 'README.md',
+798 silly resolved     bugs: { url: 'https://github.com/bnoguchi/hooks-js/issues' },
+798 silly resolved     _id: 'hooks@0.2.1',
+798 silly resolved     _from: 'hooks@0.2.1' } ]
+799 info install hooks@0.2.1 into C:\Users\user\wishesSpace\101Whishes\node_modules\mongoose
+800 info installOne hooks@0.2.1
+801 info C:\Users\user\wishesSpace\101Whishes\node_modules\mongoose\node_modules\hooks unbuild
+802 info preuninstall hooks@0.2.1
+803 info uninstall hooks@0.2.1
+804 verbose false,C:\Users\user\wishesSpace\101Whishes\node_modules,C:\Users\user\wishesSpace\101Whishes\node_modules\mongoose\node_modules unbuild hooks@0.2.1
+805 info postuninstall hooks@0.2.1
+806 verbose tar unpack C:\Users\user\AppData\Roaming\npm-cache\hooks\0.2.1\package.tgz
+807 silly lockFile 1579c8b3-ules-mongoose-node-modules-hooks tar://C:\Users\user\wishesSpace\101Whishes\node_modules\mongoose\node_modules\hooks
+808 verbose lock tar://C:\Users\user\wishesSpace\101Whishes\node_modules\mongoose\node_modules\hooks C:\Users\user\AppData\Roaming\npm-cache\1579c8b3-ules-mongoose-node-modules-hooks.lock
+809 silly lockFile 15612c65-pm-cache-hooks-0-2-1-package-tgz tar://C:\Users\user\AppData\Roaming\npm-cache\hooks\0.2.1\package.tgz
+810 verbose lock tar://C:\Users\user\AppData\Roaming\npm-cache\hooks\0.2.1\package.tgz C:\Users\user\AppData\Roaming\npm-cache\15612c65-pm-cache-hooks-0-2-1-package-tgz.lock
+811 silly gunzTarPerm modes [ '755', '644' ]
+812 silly gunzTarPerm extractEntry package.json
+813 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+814 silly gunzTarPerm extractEntry .npmignore
+815 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+816 silly gunzTarPerm extractEntry README.md
+817 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+818 silly gunzTarPerm extractEntry hooks.alt.js
+819 silly gunzTarPerm modified mode [ 'hooks.alt.js', 438, 420 ]
+820 silly gunzTarPerm extractEntry hooks.js
+821 silly gunzTarPerm modified mode [ 'hooks.js', 438, 420 ]
+822 silly gunzTarPerm extractEntry test.js
+823 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+824 silly gunzTarPerm extractEntry Makefile
+825 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+826 silly lockFile 1579c8b3-ules-mongoose-node-modules-hooks tar://C:\Users\user\wishesSpace\101Whishes\node_modules\mongoose\node_modules\hooks
+827 silly lockFile 1579c8b3-ules-mongoose-node-modules-hooks tar://C:\Users\user\wishesSpace\101Whishes\node_modules\mongoose\node_modules\hooks
+828 silly lockFile 15612c65-pm-cache-hooks-0-2-1-package-tgz tar://C:\Users\user\AppData\Roaming\npm-cache\hooks\0.2.1\package.tgz
+829 silly lockFile 15612c65-pm-cache-hooks-0-2-1-package-tgz tar://C:\Users\user\AppData\Roaming\npm-cache\hooks\0.2.1\package.tgz
+830 info preinstall hooks@0.2.1
+831 verbose readDependencies using package.json deps
+832 verbose readDependencies using package.json deps
+833 silly resolved []
+834 verbose about to build C:\Users\user\wishesSpace\101Whishes\node_modules\mongoose\node_modules\hooks
+835 info build C:\Users\user\wishesSpace\101Whishes\node_modules\mongoose\node_modules\hooks
+836 verbose linkStuff [ false,
+836 verbose linkStuff   false,
+836 verbose linkStuff   false,
+836 verbose linkStuff   'C:\\Users\\user\\wishesSpace\\101Whishes\\node_modules\\mongoose\\node_modules' ]
+837 info linkStuff hooks@0.2.1
+838 verbose linkBins hooks@0.2.1
+839 verbose linkMans hooks@0.2.1
+840 verbose rebuildBundles hooks@0.2.1
+841 info install hooks@0.2.1
+842 info postinstall hooks@0.2.1
+843 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+844 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+845 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+846 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+847 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+848 info trying registry request attempt 2 at 12:36:20
+849 http GET https://registry.npmjs.org/path/0.4.9
+850 info trying registry request attempt 2 at 12:36:20
+851 http GET https://registry.npmjs.org/juice/0.3.3
+852 info trying registry request attempt 2 at 12:36:20
+853 http GET https://registry.npmjs.org/pkginfo/0.2.3
+854 info trying registry request attempt 2 at 12:36:20
+855 http GET https://registry.npmjs.org/express/3.1.2
+856 info trying registry request attempt 2 at 12:36:20
+857 http GET https://registry.npmjs.org/passport/0.1.17
+858 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+859 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+860 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+861 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+862 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+863 info trying registry request attempt 2 at 12:36:41
+864 verbose etag "97R88T1AJ9V4XZ30205HSIA5G"
+865 http GET https://registry.npmjs.org/underscore/1.3.3
+866 info trying registry request attempt 2 at 12:36:41
+867 verbose etag "8CLBWEMLEBMIEQCHOZ4BAL13E"
+868 http GET https://registry.npmjs.org/nodemailer/0.5.2
+869 info trying registry request attempt 2 at 12:36:41
+870 verbose etag "4RVM06TQ0DD975EMA9SCMPVVJ"
+871 http GET https://registry.npmjs.org/pause/0.0.1
+872 info trying registry request attempt 2 at 12:36:41
+873 verbose etag "DT5LS1KTP95C0LL6WWRMQ1M6U"
+874 http GET https://registry.npmjs.org/ejs/0.8.3
+875 info trying registry request attempt 2 at 12:36:41
+876 verbose etag "6S0U8SDEI89TXNMSEJ8BH9LOR"
+877 http GET https://registry.npmjs.org/async/0.1.22
+878 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+879 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+880 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+881 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+882 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+883 info trying registry request attempt 2 at 12:37:02
+884 verbose etag "6G1UY5RTPKW1GM07G00TRK0RD"
+885 http GET https://registry.npmjs.org/ms/0.1.0
+886 info trying registry request attempt 2 at 12:37:02
+887 verbose etag "1MQMD0G3BCT00PMGZ8LA7K9EI"
+888 http GET https://registry.npmjs.org/muri/0.3.1
+889 info trying registry request attempt 2 at 12:37:02
+890 verbose etag "8QREHSMO6IA2DV4ANAHCT1ZH"
+891 http GET https://registry.npmjs.org/sliced/0.0.3
+892 info trying registry request attempt 2 at 12:37:02
+893 verbose etag "A1Q6DOKBCVJOCHTCJ32XE6HA2"
+894 http GET https://registry.npmjs.org/mongodb/1.3.5
+895 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+896 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+897 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+898 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+899 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+900 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+901 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+902 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+903 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+904 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+905 info trying registry request attempt 3 at 12:37:52
+906 http GET https://registry.npmjs.org/path/0.4.9
+907 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+908 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+909 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+910 info trying registry request attempt 3 at 12:38:13
+911 http GET https://registry.npmjs.org/juice/0.3.3
+912 info trying registry request attempt 3 at 12:38:13
+913 http GET https://registry.npmjs.org/pkginfo/0.2.3
+914 info trying registry request attempt 3 at 12:38:13
+915 verbose etag "97R88T1AJ9V4XZ30205HSIA5G"
+916 http GET https://registry.npmjs.org/underscore/1.3.3
+917 info trying registry request attempt 3 at 12:38:13
+918 http GET https://registry.npmjs.org/express/3.1.2
+919 info trying registry request attempt 3 at 12:38:13
+920 http GET https://registry.npmjs.org/passport/0.1.17
+921 silly lockFile f9561765-path-0-4-9 path@0.4.9
+922 silly lockFile f9561765-path-0-4-9 path@0.4.9
+923 error network connect ETIMEDOUT
+923 error network This is most likely not a problem with npm itself
+923 error network and is related to network connectivity.
+923 error network In most cases you are behind a proxy or have bad network settings.
+923 error network
+923 error network If you are behind a proxy, please make sure that the
+923 error network 'proxy' config is set properly.  See: 'npm help config'
+924 error System Windows_NT 6.1.7601
+925 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "update"
+926 error cwd C:\Users\user\wishesSpace\101Whishes
+927 error node -v v0.10.18
+928 error npm -v 1.3.8
+929 error syscall connect
+930 error code ETIMEDOUT
+931 error errno ETIMEDOUT
+932 verbose exit [ 1, true ]
